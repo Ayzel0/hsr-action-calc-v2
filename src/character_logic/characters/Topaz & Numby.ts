@@ -1,10 +1,15 @@
 import type { ICharacter, ISummon } from '../Actor';
-import type { IStatusEffect } from '../StatusEffect';
-import { DebuffCategories } from '../StatusEffect';
 import { Character, Summon, Enemy } from '../Actor';
 import type { IEnemy } from '../Actor';
+import type { IStatusEffect } from '../StatusEffect';
+import { DebuffCategories, defDown } from '../StatusEffect';
 import EventEmitter from '../EventEmitter';
-import { DamageTypes } from '../DamageTypes';
+
+// enums
+import { DamageTypes } from '../enums/DamageTypes';
+import { Factions } from '../enums/Factions';
+import { Elements } from '../enums/Elements';
+import { Paths } from '../enums/Paths';
 
 class ProofOfDebt implements IStatusEffect {
   // interface implementation
@@ -26,18 +31,16 @@ class ProofOfDebt implements IStatusEffect {
   }
 }
 
-class Topaz extends Character {
+class TopazAndNumby extends Character {
   // basic attack
   normalScaling: number;
   normalStat: string;
-  normalElement: string;
   normalDMGTypes: string[];
 
   // skill
   skillInsertDMGIncrease: number;
   skillDMGScaling: number;
-  skillElement: string;
-  skillDMGTypes: string[];
+  skillDMGTypes: DamageTypes[] = [DamageTypes.skill, DamageTypes.fire, DamageTypes.insert];
 
   //.using default lv80 stats
   constructor(
@@ -57,16 +60,16 @@ class Topaz extends Character {
     currentSPD: number = 110,
     currentTaunt: number = 75,
     currentEnergy: number = 0,
-    element: string = 'Fire',
-    path: string = 'The Hunt',
-    rarity: number = 4,
-    faction: string = 'Interastral Peace Corporation',
+    element: Elements = Elements.fire,
+    path: string = Paths.theHunt,
+    rarity: number = 5,
+    faction: Factions = Factions.IPC,
 
     // basic atk stuff
     normalScaling: number = 1.00,
     normalStat: string = 'ATK',
     normalElement: string = 'Fire',
-    normalDMGTypes: string[] = ['fireDMG', 'normalDMG', 'insertDMG'],
+    normalDMGTypes: DamageTypes[] = [DamageTypes.normal, DamageTypes.insert],
 
     // skill stuff
     skillInsertDMGIncrease: number = 0.5,
@@ -103,12 +106,23 @@ class Topaz extends Character {
    * step 3: deals damage along with emitting a skill use and follow-up use event
    * @return damage which the attack does 
    */
-  skillAttack(target: Enemy): void {
+  skillAttack(target: Enemy): number {
+    let dmgIncreaseValue = 0;
+    let defDownValue = 0;
     if (!target.hasStatusEffect('proofOfDebt')) {
       const PoD = new ProofOfDebt();
       target.addStatusEffect(PoD);
     } else {
       const statusEffects = target.statusEffects;
+      statusEffects.forEach(statusEffect => {
+        if (statusEffect.type === DebuffCategories.defDown) {
+          if (statusEffect.subtype === DamageTypes.all || /* check if the def down is for skill/insert/fire dmg type as well */) 
+          defDownValue += (statusEffect as defDown).value;
+        } else if (statusEffect.type === DebuffCategories.dmgReceivedIncrease) {
+          // adjust dmgIncreaseValue
+        }
+      })
     }
+    return 0;
   }
 }

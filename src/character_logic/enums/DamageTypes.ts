@@ -10,5 +10,6 @@ export enum DamageTypes {
   lightning = 'LIGHTNING',
   wind = 'WIND',
   quantum = 'QUANTUM',
-  imaginary = 'IMAGINARY'
+  imaginary = 'IMAGINARY',
+  all = 'ALL'
 }
