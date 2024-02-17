@@ -1,6 +1,6 @@
 import EventEmitter from './EventEmitter';
 import type { IStatusEffect } from './StatusEffect.ts';
-import { Factions } from './enums/Factions.ts';
+import { Faction } from './enums/Faction.ts';
 
 interface IActor {
   name: string;
@@ -32,7 +32,7 @@ interface ICharacter extends IActor {
   element: string;
   path: string;
   rarity: number;
-  faction: Factions;
+  faction: Faction;
 }
 
 interface IEnemy extends IActor {
@@ -96,7 +96,7 @@ class Character extends Actor implements ICharacter {
   element: string;
   path: string;
   rarity: number;
-  faction: Factions;
+  faction: Faction;
 
   constructor(
     name: string,
@@ -117,7 +117,7 @@ class Character extends Actor implements ICharacter {
     element: string,
     path: string,
     rarity: number,
-    faction: Factions,
+    faction: Faction,
   ) {
     super(name, iconPath, baseSPD, currentSPD, eventEmitter);
     this.baseHP = baseHP;

@@ -1,8 +1,8 @@
 import type { IEnemy } from './Actor';
-import { DamageTypes } from './enums/DamageTypes'
+import { DamageType } from './enums/DamageType'
 
 // interfaces/enums
-enum DebuffCategories {
+enum DebuffCategory {
   defDown = 'DEF_DOWN',
   dmgReceivedIncrease = 'DMG_RECEIVED_INCREASE',
   DOT = 'DAMAGE_OVER_TIME',
@@ -16,15 +16,15 @@ enum DebuffCategories {
 interface IStatusEffect {
   name: string;
   duration: number;
-  type: DebuffCategories;
-  subtype?: DamageTypes;
+  type: DebuffCategory;
+  subtype?: DamageType;
 }
 
 class defDown implements IStatusEffect {
   name: string = 'defDown';
   duration: number;
-  type: DebuffCategories = DebuffCategories.defDown;
-  subtype: DamageTypes = DamageTypes.all;
+  type: DebuffCategory = DebuffCategory.defDown;
+  subtype: DamageType = DamageType.all;
   value: number;
 
   constructor (
@@ -41,8 +41,8 @@ class defDown implements IStatusEffect {
 class Bleed implements IStatusEffect {
   name: string = 'bleed';
   duration: number;
-  type: DebuffCategories = DebuffCategories.DOT;
-  subType: DamageTypes = DamageTypes.physical;
+  type: DebuffCategory = DebuffCategory.DOT;
+  subType: DamageType = DamageType.physical;
 
   constructor(
     name: string,
@@ -57,7 +57,7 @@ class Bleed implements IStatusEffect {
 export type { IStatusEffect };
 
 // enums
-export { DebuffCategories };
+export { DebuffCategory };
 
 // classes
 export { defDown };

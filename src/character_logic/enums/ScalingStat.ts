@@ -1,0 +1,20 @@
+export enum ScalingStat {
+  ATK = 'Attack',
+  DEF = 'Defense',
+  HP = 'HP',
+  TAUNT = 'Taunt',
+  SPEED = 'Speed',
+  CDMG = 'Crit DMG',
+  CRATE = 'Crit Rate',
+  EHR = 'Effect Hit Rate',
+  OHB = 'Outgoing Healing Boost',
+  BE = 'Break Effect',
+  ERR = 'Energy Regeneration Rate',
+  PHYSICAL_DMG_BOOST = 'Physical DMG Boost',
+  FIRE_DMG_BOOST = 'Fire DMG Boost',
+  ICE_DMG_BOOST = 'Ice DMG Boost',
+  WIND_DMG_BOOST = 'Wind DMG Boost',
+  LIGHTNING_DMG_BOOST = 'Lightning DMG Boost',
+  QUANTUM_DMG_BOOST = 'Quantum DMG Boost',
+  IMAGINARY_DMG_BOOST = 'Imaginary DMG Boost'
+}

@@ -1,4 +1,4 @@
-export enum Elements {
+export enum Element {
   physical = 'PHYSICAL',
   fire = 'FIRE',
   ice = 'ICE',

@@ -1,4 +1,4 @@
-export enum DamageTypes {
+export enum DamageType {
   normal = 'NORMAL_ATTACK',
   skill = 'SKILL_ATTACK',
   ultimate = 'ULTIMATE_ATTACK',

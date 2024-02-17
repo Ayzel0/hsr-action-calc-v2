@@ -1,4 +1,4 @@
-export enum Factions {
+export enum Faction {
   maskedFools = 'MASKED_FOOLS',
   IPC = 'INTERASTRAL_PEACE_CORPORATION',
   nameless = 'THE_NAMELESS',

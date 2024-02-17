@@ -1,4 +1,4 @@
-export enum Paths {
+export enum Path {
   destruction = 'DESTRUCTION',
   theHunt = 'THE_HUNT',
   erudition = 'ERUDITION',
