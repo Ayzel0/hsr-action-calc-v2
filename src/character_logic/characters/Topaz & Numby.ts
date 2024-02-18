@@ -16,9 +16,17 @@ import { ScalingStat } from '../enums/ScalingStat';
 // stat page
 import type { ICharStatPage } from '../stat_logic/CharStatPage';
 
+// character stats json
+import charStatsJSON from '../data/hsr_char_stats.json';
+
 /**
  * Starting character setup; order of setup is stat page => character unique effects => character skill logic
  */
+
+const specialLevels = [20, 30, 40, 50, 60, 70];
+const charName = 'Topaz & Numby';
+
+// interface to resolve some json import issues
 
 class TopazStatPage implements ICharStatPage {
   private baseHP: number;
@@ -39,17 +47,65 @@ class TopazStatPage implements ICharStatPage {
     public ascensionSixTraceUnlocked: boolean,
     public minorTraces: { [key: string]: boolean; }
   ) {
-    switch (characterLevel) {
-      case 1: 
-        this.baseATK = 84;
-        this.baseDEF = 56;
-        this.baseHP = 126;
-      case 20:
-        if (ascensionLevel === 1) {
+    /**
+     * setting base HP/ATK/DEF by looking values up from json
+     */
 
-        } else if (ascensionLevel === 2) {
+    // first check if it's on an ascension breakpoint
+    if (!specialLevels.some(level => level === characterLevel)) { // if it's not on breakpoint, job is easy
+      const levelKey = this.characterLevel.toString(); 
 
+      const charStats = charStatsJSON.find(charStats => charStats['Character Name'] === charName);
+      if (charStats) {
+        const atkObject = charStats.Stats.ATK as { [key: string] : number };
+        const defObject = charStats.Stats.DEF as { [key: string] : number };
+        this.baseATK = atkObject[levelKey] ?? 0;
+        this.baseDEF = defObject[levelKey] ?? 0;
+      }
+    } else { // if it is on an asension breakpoint, then generate a unique levelKey to look it up
+      const levelKey: string = (() => {
+        switch (characterLevel) {
+          case 20:
+            if (ascensionLevel === 0) {
+              return '20';
+            }
+            return '20+';
+          case 30:
+            if (ascensionLevel === 1) {
+              return '30';
+            }
+            return '30+';
+          case 40:
+            if (ascensionLevel === 2) {
+              return '40';
+            }
+            return '40+';
+          case 50:
+            if (ascensionLevel === 3) {
+              return '50';
+            }
+            return '50+';
+          case 60:
+            if (ascensionLevel === 4) {
+              return '60';
+            }
+            return '60+';
+          case 70:
+            if (ascensionLevel === 5) {
+              return '70';
+            }
+            return '70+';
+          default:
+            return '1';
         }
+      })();
+
+      // look up value
+      const charStats = charStatsJSON.find(charStats => charStats['Character Name'] === charName);
+      if (charStats) {
+        const atkObject = charStats.Stats.ATK as { [key: string] : number};
+        this.baseATK = atkObject[levelKey] ?? 0;
+      }
     }
   }
 }

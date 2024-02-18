@@ -1,6 +1,7 @@
 [
     {
-        "Misha": {
+        "Character Name": "Misha",
+        "Stats": {
             "ATK": {
                 "1": 81.0,
                 "2": 85.0,
@@ -620,7 +621,8 @@
         }
     },
     {
-        "Sparkle": {
+        "Character Name": "Sparkle",
+        "Stats": {
             "ATK": {
                 "1": 71.0,
                 "2": 74.0,
@@ -1240,7 +1242,8 @@
         }
     },
     {
-        "Black Swan": {
+        "Character Name": "Black Swan",
+        "Stats": {
             "ATK": {
                 "1": 89.0,
                 "2": 94.0,
@@ -1860,7 +1863,8 @@
         }
     },
     {
-        "Dr. Ratio": {
+        "Character Name": "Dr. Ratio",
+        "Stats": {
             "ATK": {
                 "1": 105.0,
                 "2": 110.0,
@@ -2480,7 +2484,8 @@
         }
     },
     {
-        "Xueyi": {
+        "Character Name": "Xueyi",
+        "Stats": {
             "ATK": {
                 "1": 81.0,
                 "2": 85.0,
@@ -3100,7 +3105,8 @@
         }
     },
     {
-        "Ruan Mei": {
+        "Character Name": "Ruan Mei",
+        "Stats": {
             "ATK": {
                 "1": 89.0,
                 "2": 94.0,
@@ -3720,7 +3726,8 @@
         }
     },
     {
-        "Hanya": {
+        "Character Name": "Hanya",
+        "Stats": {
             "ATK": {
                 "1": 76.0,
                 "2": 80.0,
@@ -4340,7 +4347,8 @@
         }
     },
     {
-        "Argenti": {
+        "Character Name": "Argenti",
+        "Stats": {
             "ATK": {
                 "1": 100.0,
                 "2": 105.0,
@@ -4960,7 +4968,8 @@
         }
     },
     {
-        "Huohuo": {
+        "Character Name": "Huohuo",
+        "Stats": {
             "ATK": {
                 "1": 81.0,
                 "2": 85.0,
@@ -5580,7 +5589,8 @@
         }
     },
     {
-        "Topaz & Numby": {
+        "Character Name": "Topaz & Numby",
+        "Stats": {
             "ATK": {
                 "1": 84.0,
                 "2": 88.0,
@@ -6200,7 +6210,8 @@
         }
     },
     {
-        "Guinaifen": {
+        "Character Name": "Guinaifen",
+        "Stats": {
             "ATK": {
                 "1": 79.0,
                 "2": 83.0,
@@ -6820,7 +6831,8 @@
         }
     },
     {
-        "Jingliu": {
+        "Character Name": "Jingliu",
+        "Stats": {
             "ATK": {
                 "1": 92.0,
                 "2": 97.0,
@@ -7440,7 +7452,8 @@
         }
     },
     {
-        "Lynx": {
+        "Character Name": "Lynx",
+        "Stats": {
             "ATK": {
                 "1": 67.0,
                 "2": 70.0,
@@ -8060,7 +8073,8 @@
         }
     },
     {
-        "Fu Xuan": {
+        "Character Name": "Fu Xuan",
+        "Stats": {
             "ATK": {
                 "1": 63.0,
                 "2": 66.0,
@@ -8680,7 +8694,8 @@
         }
     },
     {
-        "Dan Heng \u2022 Imbibitor Lunae": {
+        "Character Name": "Dan Heng \u2022 Imbibitor Lunae",
+        "Stats": {
             "ATK": {
                 "1": 95.0,
                 "2": 99.0,
@@ -9300,7 +9315,8 @@
         }
     },
     {
-        "Kafka": {
+        "Character Name": "Kafka",
+        "Stats": {
             "ATK": {
                 "1": 92.0,
                 "2": 97.0,
@@ -9920,7 +9936,8 @@
         }
     },
     {
-        "Luka": {
+        "Character Name": "Luka",
+        "Stats": {
             "ATK": {
                 "1": 79.0,
                 "2": 83.0,
@@ -10540,7 +10557,8 @@
         }
     },
     {
-        "Blade": {
+        "Character Name": "Blade",
+        "Stats": {
             "ATK": {
                 "1": 73.0,
                 "2": 77.0,
@@ -11160,7 +11178,8 @@
         }
     },
     {
-        "Luocha": {
+        "Character Name": "Luocha",
+        "Stats": {
             "ATK": {
                 "1": 102.0,
                 "2": 108.0,
@@ -11780,7 +11799,8 @@
         }
     },
     {
-        "Yukong": {
+        "Character Name": "Yukong",
+        "Stats": {
             "ATK": {
                 "1": 81.0,
                 "2": 85.0,
@@ -12400,7 +12420,8 @@
         }
     },
     {
-        "Silver Wolf": {
+        "Character Name": "Silver Wolf",
+        "Stats": {
             "ATK": {
                 "1": 87.0,
                 "2": 91.0,
@@ -13020,7 +13041,8 @@
         }
     },
     {
-        "Jing Yuan": {
+        "Character Name": "Jing Yuan",
+        "Stats": {
             "ATK": {
                 "1": 95.0,
                 "2": 99.0,
@@ -13640,7 +13662,8 @@
         }
     },
     {
-        "March 7th": {
+        "Character Name": "March 7th",
+        "Stats": {
             "ATK": {
                 "1": 69.0,
                 "2": 73.0,
@@ -14260,7 +14283,8 @@
         }
     },
     {
-        "Dan Heng": {
+        "Character Name": "Dan Heng",
+        "Stats": {
             "ATK": {
                 "1": 74.0,
                 "2": 78.0,
@@ -14880,7 +14904,8 @@
         }
     },
     {
-        "Himeko": {
+        "Character Name": "Himeko",
+        "Stats": {
             "ATK": {
                 "1": 102.0,
                 "2": 108.0,
@@ -15500,7 +15525,8 @@
         }
     },
     {
-        "Welt": {
+        "Character Name": "Welt",
+        "Stats": {
             "ATK": {
                 "1": 84.0,
                 "2": 88.0,
@@ -16120,7 +16146,8 @@
         }
     },
     {
-        "Arlan": {
+        "Character Name": "Arlan",
+        "Stats": {
             "ATK": {
                 "1": 81.0,
                 "2": 85.0,
@@ -16740,7 +16767,8 @@
         }
     },
     {
-        "Asta": {
+        "Character Name": "Asta",
+        "Stats": {
             "ATK": {
                 "1": 69.0,
                 "2": 73.0,
@@ -17360,7 +17388,8 @@
         }
     },
     {
-        "Herta": {
+        "Character Name": "Herta",
+        "Stats": {
             "ATK": {
                 "1": 79.0,
                 "2": 83.0,
@@ -17980,7 +18009,8 @@
         }
     },
     {
-        "Bronya": {
+        "Character Name": "Bronya",
+        "Stats": {
             "ATK": {
                 "1": 79.0,
                 "2": 83.0,
@@ -18600,7 +18630,8 @@
         }
     },
     {
-        "Seele": {
+        "Character Name": "Seele",
+        "Stats": {
             "ATK": {
                 "1": 87.0,
                 "2": 91.0,
@@ -19220,7 +19251,8 @@
         }
     },
     {
-        "Serval": {
+        "Character Name": "Serval",
+        "Stats": {
             "ATK": {
                 "1": 88.0,
                 "2": 93.0,
@@ -19840,7 +19872,8 @@
         }
     },
     {
-        "Gepard": {
+        "Character Name": "Gepard",
+        "Stats": {
             "ATK": {
                 "1": 73.0,
                 "2": 77.0,
@@ -20460,7 +20493,8 @@
         }
     },
     {
-        "Natasha": {
+        "Character Name": "Natasha",
+        "Stats": {
             "ATK": {
                 "1": 64.0,
                 "2": 68.0,
@@ -21080,7 +21114,8 @@
         }
     },
     {
-        "Pela": {
+        "Character Name": "Pela",
+        "Stats": {
             "ATK": {
                 "1": 74.0,
                 "2": 78.0,
@@ -21700,7 +21735,8 @@
         }
     },
     {
-        "Clara": {
+        "Character Name": "Clara",
+        "Stats": {
             "ATK": {
                 "1": 100.0,
                 "2": 105.0,
@@ -22320,7 +22356,8 @@
         }
     },
     {
-        "Sampo": {
+        "Character Name": "Sampo",
+        "Stats": {
             "ATK": {
                 "1": 84.0,
                 "2": 88.0,
@@ -22940,7 +22977,8 @@
         }
     },
     {
-        "Hook": {
+        "Character Name": "Hook",
+        "Stats": {
             "ATK": {
                 "1": 84.0,
                 "2": 88.0,
@@ -23560,7 +23598,8 @@
         }
     },
     {
-        "Qingque": {
+        "Character Name": "Qingque",
+        "Stats": {
             "ATK": {
                 "1": 88.0,
                 "2": 93.0,
@@ -24180,7 +24219,8 @@
         }
     },
     {
-        "Tingyun": {
+        "Character Name": "Tingyun",
+        "Stats": {
             "ATK": {
                 "1": 72.0,
                 "2": 75.0,
@@ -24800,7 +24840,8 @@
         }
     },
     {
-        "Sushang": {
+        "Character Name": "Sushang",
+        "Stats": {
             "ATK": {
                 "1": 76.0,
                 "2": 80.0,
@@ -25420,7 +25461,8 @@
         }
     },
     {
-        "Yanqing": {
+        "Character Name": "Yanqing",
+        "Stats": {
             "ATK": {
                 "1": 92.0,
                 "2": 97.0,
@@ -26040,7 +26082,8 @@
         }
     },
     {
-        "Bailu": {
+        "Character Name": "Bailu",
+        "Stats": {
             "ATK": {
                 "1": 76.0,
                 "2": 80.0,
@@ -26660,7 +26703,8 @@
         }
     },
     {
-        "Trailblazer": {
+        "Character Name": "Trailblazer",
+        "Stats": {
             "ATK": {
                 "1": 84.0,
                 "2": 88.0,
@@ -27280,7 +27324,8 @@
         }
     },
     {
-        "Trailblazer": {
+        "Character Name": "Trailblazer",
+        "Stats": {
             "ATK": {
                 "1": 84.0,
                 "2": 88.0,
@@ -27900,7 +27945,8 @@
         }
     },
     {
-        "Trailblazer": {
+        "Character Name": "Trailblazer",
+        "Stats": {
             "ATK": {
                 "1": 81.0,
                 "2": 85.0,
@@ -28520,7 +28566,8 @@
         }
     },
     {
-        "Trailblazer": {
+        "Character Name": "Trailblazer",
+        "Stats": {
             "ATK": {
                 "1": 81.0,
                 "2": 85.0,
