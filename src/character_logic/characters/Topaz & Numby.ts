@@ -29,9 +29,9 @@ const charName = 'Topaz & Numby';
 // interface to resolve some json import issues
 
 class TopazStatPage implements ICharStatPage {
-  private baseHP: number;
-  private baseATK: number;
-  private baseDEF: number;
+  private baseHP: number = -1;
+  private baseATK: number = -1;
+  private baseDEF: number = -1;
   private baseSPD: number = 110;
   private baseTaunt: number = 75;
 
@@ -57,11 +57,13 @@ class TopazStatPage implements ICharStatPage {
 
       const charStats = charStatsJSON.find(charStats => charStats['Character Name'] === charName);
       if (charStats) {
-        const atkObject = charStats.Stats.ATK as { [key: string] : number };
+        const atkObject = charStats.Stats.ATK as { [key: string] : number }?? 0;
         const defObject = charStats.Stats.DEF as { [key: string] : number };
+        const hpObject = charStats.Stats.HP as { [key: string] : number };
         this.baseATK = atkObject[levelKey] ?? 0;
         this.baseDEF = defObject[levelKey] ?? 0;
-      }
+        this.baseHP = hpObject[levelKey] ?? 0;
+      } 
     } else { // if it is on an asension breakpoint, then generate a unique levelKey to look it up
       const levelKey: string = (() => {
         switch (characterLevel) {
@@ -104,7 +106,11 @@ class TopazStatPage implements ICharStatPage {
       const charStats = charStatsJSON.find(charStats => charStats['Character Name'] === charName);
       if (charStats) {
         const atkObject = charStats.Stats.ATK as { [key: string] : number};
+        const defObject = charStats.Stats.DEF as { [key: string] : number};
+        const hpObject = charStats.Stats.HP as { [key: string] : number};
         this.baseATK = atkObject[levelKey] ?? 0;
+        this.baseDEF = defObject[levelKey] ?? 0;
+        this.baseHP = hpObject[levelKey] ?? 0;
       }
     }
   }
