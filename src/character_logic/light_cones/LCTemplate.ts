@@ -1,7 +1,8 @@
 import type { ILCStatPage } from "../stat_logic";
 import lcJSON from '../data/hsr_lc_stats.json';
+import { Path } from "../enums";
 
-class LCTemplate implements ILCStatPage {
+export default class LCTemplate implements ILCStatPage {
   public baseATK: number = -1;
   public baseDEF: number = -1;
   public baseHP: number = -1;
@@ -12,7 +13,9 @@ class LCTemplate implements ILCStatPage {
     public ascensionLevel: number,
     public superimpositionLevel: number,
 
+    // LC unique data
     public lcName: string,
+    public lcPath: Path,
   ) {
     // get the base stats for LC
     const lcStats = lcJSON.find(json => json['Name'] === this.lcName);

@@ -1,34 +1,37 @@
+import { Event } from "./enums";
+
 type Listener = (...args: any[]) => void;
 
 class EventEmitter {
   // listeners for each event emitter
   private listeners: {
-    [event: string]: Listener[]
+    [Key in Event]?: Listener[]
   } = {};
 
   // adding listeners
-  on(event: string, listener: Listener): void {
+  on(event: Event, listener: Listener): void {
     // check if we already have a listener for this event
     if (!this.listeners[event]) {
       this.listeners[event] = [];
     }
     // add a listener to the listener array for given event
-    this.listeners[event].push(listener);
+    this.listeners[event]!.push(listener);
   }
 
   // method for emitting an event to all listeners
-  emit(event: string, ...args:any[]): void {
+  emit(event: Event, ...args:any[]): void {
     if(this.listeners[event]) {
-      this.listeners[event].forEach(listener => listener(...args));
+      this.listeners[event]?.forEach(listener => listener(...args));
     }
   }
 
   // method for removing an event emitter
-  off(event: string, listenerToRemove: Listener): void {
+  off(event: Event, listenerToRemove: Listener): void {
     if(this.listeners[event]) {
-      this.listeners[event] = this.listeners[event].filter(listener => listener !== listenerToRemove);
+      this.listeners[event] = this.listeners[event]!.filter(listener => listener !== listenerToRemove);
     }
   }
 }
 
 export default EventEmitter;
+export type { Listener };

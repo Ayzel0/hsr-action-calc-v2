@@ -59,7 +59,7 @@ class TopazStatPage implements ICharStatPage {
 
       const charStats = charStatsJSON.find(charStats => charStats['Character Name'] === charName);
       if (charStats) {
-        const atkObject = charStats.Stats.ATK as { [key: string] : number }?? 0;
+        const atkObject = charStats.Stats.ATK as { [key: string] : number };
         const defObject = charStats.Stats.DEF as { [key: string] : number };
         const hpObject = charStats.Stats.HP as { [key: string] : number };
         this.baseATK = atkObject[levelKey] ?? 0;
