@@ -1,20 +1,20 @@
-import type { ICharacter, ISummon } from '../Actor';
 import { Character, Summon, Enemy } from '../Actor';
-import type { IEnemy } from '../Actor';
 import type { IStatusEffect } from '../StatusEffect';
 import { DebuffCategory, defDown } from '../StatusEffect';
 import EventEmitter from '../EventEmitter';
 
 // enums
-import { DamageType } from '../enums/DamageType';
-import { Faction } from '../enums/Faction';
-import { Element } from '../enums/Element';
-import { Path } from '../enums/Path';
-import { PlayableCharacterName } from '../enums/PlayableCharacterName';
-import { ScalingStat } from '../enums/ScalingStat';
+import { 
+  DamageType,
+  Faction,
+  Element,
+  Path,
+  PlayableCharacterName,
+  ScalingStat
+} from '../enums';
 
 // stat page
-import type { ICharStatPage } from '../stat_logic/CharStatPage';
+import type { ICharStatPage, ILCStatPage } from '../stat_logic';
 
 // character stats json
 import charStatsJSON from '../data/hsr_char_stats.json';
@@ -38,6 +38,7 @@ class TopazStatPage implements ICharStatPage {
   constructor (
     public characterLevel: number,
     public ascensionLevel: number,
+    public eidolonLevel: number,
     public basicLevel: number,
     public skillLevel: number,
     public ultLevel: number,
@@ -45,7 +46,8 @@ class TopazStatPage implements ICharStatPage {
     public ascensionTwoTraceUnlocked: boolean,
     public ascensionFourTraceUnlocked: boolean,
     public ascensionSixTraceUnlocked: boolean,
-    public minorTraces: { [key: string]: boolean; }
+    public minorTraces: { [key: string]: boolean; },
+    public lightCone: ILCStatPage,
   ) {
     /**
      * setting base HP/ATK/DEF by looking values up from json

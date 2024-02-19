@@ -1,9 +1,10 @@
-import { ScalingStat } from "../enums/ScalingStat";
+import type { ILCStatPage } from './LCStatPage';
 
 interface ICharStatPage {
   // character level
   characterLevel: number;
   ascensionLevel: number;
+  eidolonLevel: number;
 
   // skill levels
   basicLevel: number;
@@ -20,6 +21,9 @@ interface ICharStatPage {
   minorTraces: {
     [key: string]: boolean;
   };
+
+  // light cone
+  lightCone: ILCStatPage;
 }
 
 export type { ICharStatPage };
