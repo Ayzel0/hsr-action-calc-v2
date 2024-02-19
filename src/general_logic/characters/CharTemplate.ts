@@ -21,7 +21,7 @@ class CharTemplate implements ICharStatPage {
     public ascensionSixTraceUnlocked: boolean,
 
     // minor traces
-    public minorTraces
+    public traces
   ) {
     
   }

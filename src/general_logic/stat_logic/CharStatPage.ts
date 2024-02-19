@@ -12,13 +12,7 @@ interface ICharStatPage {
   ultLevel: number;
   talentLevel: number;
   
-  // major trace unlocks
-  ascensionTwoTraceUnlocked: boolean;
-  ascensionFourTraceUnlocked: boolean;
-  ascensionSixTraceUnlocked: boolean;
-
-  // minor trace unlocks
-  minorTraces: {
+  traces: {
     [key: string]: boolean;
   };
 
