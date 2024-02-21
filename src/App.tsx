@@ -1,5 +1,6 @@
 import './App.css';
-import charStatsJSON from './character_logic/data/hsr_char_stats.json';
+import charStatsJSON from './general_logic/data/hsr_char_stats.json';
+import LandingPage from './components/specific_pages/LandingPage';
 
 const App = () => {
   let baseATK = 0;
@@ -16,9 +17,7 @@ const App = () => {
   console.log(baseATK);
   return (
     <>
-      <div className="text-3xl font-bold underline text-red-600">
-        hi
-      </div>
+      <LandingPage />
     </>
   )
 }

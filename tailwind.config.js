@@ -5,7 +5,13 @@ export default {
     './index.html'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'midnight-green': '#1A535C',
+        'teal': '#4ecdc4',
+        'off-white': '#f7fff7'
+      }
+    },
   },
   plugins: [],
 }
