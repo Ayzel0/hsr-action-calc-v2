@@ -1,11 +1,15 @@
 import type { ICharStatPage } from "../stat_logic";
-import charJSON from '../data/hsr_char_stats.json';
-import { ICharStatPage } from "../stat_logic";
+import { MinorTrace, MajorTrace } from "../stat_logic";
+import LCTemplate from "../light_cones/LCTemplate";
+import { PlayableCharacterName } from "../enums";
 
 class CharTemplate implements ICharStatPage {
   constructor (
+    // display information
+    public characterName: PlayableCharacterName,
+
     // base levels
-    public charLevel: number,
+    public characterLevel: number,
     public ascensionLevel: number,
     public eidolonLevel: number,
     
@@ -21,8 +25,11 @@ class CharTemplate implements ICharStatPage {
     public ascensionSixTraceUnlocked: boolean,
 
     // minor traces
-    public traces
-  ) {
-    
-  }
+    public traces: Array<[MinorTrace | MajorTrace]>,
+
+    // light cone
+    public lightCone: LCTemplate,
+  ) { }
 }
+
+export default CharTemplate;

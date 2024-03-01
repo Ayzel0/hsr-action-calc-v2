@@ -25,6 +25,7 @@ interface IMinorTrace {
   unlockedFrom: unlockCondition,
   stat: ScalingStat,
   statValue: number,
+  unlocked: boolean,
 }
 
 class MinorTrace implements IMinorTrace {
@@ -33,8 +34,17 @@ class MinorTrace implements IMinorTrace {
     public unlockedFrom: unlockCondition,
     public stat: ScalingStat,
     public statValue: number,
+    public unlocked: boolean,
+  ) {}
+}
+
+class MajorTrace implements IMajorTrace {
+  constructor (
+    public prerequisite: IMinorTrace | IMajorTrace | true,
+    public unlockedFrom: unlockCondition,
+    public unlocked: boolean,
   ) {}
 }
 
 export type { IMajorTrace, IMinorTrace }
-export { MinorTrace, unlockCondition }
+export { MinorTrace, MajorTrace, unlockCondition }

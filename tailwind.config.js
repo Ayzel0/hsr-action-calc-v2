@@ -9,7 +9,8 @@ export default {
       colors: {
         'midnight-green': '#1A535C',
         'teal': '#4ecdc4',
-        'off-white': '#f7fff7'
+        'off-white': '#f7fff7',
+        'offer-white': '#e5e5e5'
       }
     },
   },
