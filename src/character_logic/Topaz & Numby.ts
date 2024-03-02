@@ -1,7 +1,7 @@
-import { Character, Summon, Enemy } from '../Actor';
-import type { IStatusEffect } from '../StatusEffect';
-import { DebuffCategory, defDown } from '../StatusEffect';
-import EventEmitter from '../EventEmitter';
+import { Character, Summon, Enemy } from '../general_logic/Actor';
+import type { IStatusEffect } from '../general_logic/StatusEffect';
+import { DebuffCategory, defDown } from '../general_logic/StatusEffect';
+import EventEmitter from '../general_logic/EventEmitter';
 
 // enums
 import { 
@@ -11,13 +11,13 @@ import {
   Path,
   PlayableCharacterName,
   ScalingStat
-} from '../enums';
+} from '../general_logic/enums';
 
 // stat page
-import type { ICharStatPage, ILCStatPage } from '../stat_logic';
+import type { ICharStatPage, ILCStatPage } from '../general_logic/stat_logic';
 
 // character stats json
-import charStatsJSON from '../data/hsr_char_stats.json';
+import charStatsJSON from '../general_logic/data/hsr_char_stats.json';
 
 /**
  * Starting character setup; order of setup is stat page => character unique effects => character skill logic
