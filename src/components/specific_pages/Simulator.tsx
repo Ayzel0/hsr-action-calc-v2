@@ -1,5 +1,5 @@
 import Navbar from "../page_constants/Navbar";
-import charStats from '../../general_logic/data/hsr_char_stats.json';
+import charStats from '../../data/hsr_char_stats.json';
 
 const Simulator = () => {
   return (

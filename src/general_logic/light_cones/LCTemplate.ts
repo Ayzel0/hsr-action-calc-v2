@@ -1,5 +1,5 @@
 import type { ILCStatPage } from "../stat_logic";
-import lcJSON from '../data/hsr_lc_stats.json';
+import lcJSON from '../../data/hsr_lc_stats.json';
 import { Path } from "../enums";
 
 export default class LCTemplate implements ILCStatPage {

@@ -1,5 +1,5 @@
 {
-    "Acheron": [
+    "1308": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -58,7 +58,7 @@
         {
             "id": "E1",
             "traceLevel": "major",
-            "effect": "At the start of battle, immediately gain 4 point(s) of Slashed Dream and apply 4 stack(s) of Crimson Knot to a random enemy.",
+            "effect": "At the start of battle, immediately gain 5 point(s) of Slashed Dream and apply 5 stack(s) of Crimson Knot to a random enemy.",
             "unlockRequirement": "Ascension 2",
             "nextObjects": [
                 {
@@ -123,7 +123,7 @@
             ]
         }
     ],
-    "Black Swan": [
+    "1307": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -247,7 +247,7 @@
             ]
         }
     ],
-    "Sparkle": [
+    "1306": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -353,7 +353,7 @@
             ]
         }
     ],
-    "Dr. Ratio": [
+    "1305": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -455,7 +455,7 @@
             ]
         }
     ],
-    "Aventurine": [
+    "1304": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -559,7 +559,7 @@
             ]
         }
     ],
-    "Ruan Mei": [
+    "1303": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -665,7 +665,7 @@
             ]
         }
     ],
-    "Argenti": [
+    "1302": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -765,7 +765,7 @@
             "unlockRequirement": "Lv. 1"
         }
     ],
-    "Huohuo": [
+    "1217": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -869,7 +869,7 @@
             "unlockRequirement": "Lv. 80"
         }
     ],
-    "Dan Heng \u2022 Imbibitor Lunae": [
+    "1213": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -975,7 +975,7 @@
             ]
         }
     ],
-    "Jingliu": [
+    "1212": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1081,7 +1081,7 @@
             ]
         }
     ],
-    "Bailu": [
+    "1211": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1185,7 +1185,7 @@
             "unlockRequirement": "Lv. 80"
         }
     ],
-    "Yanqing": [
+    "1209": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1287,7 +1287,7 @@
             ]
         }
     ],
-    "Fu Xuan": [
+    "1208": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1391,7 +1391,7 @@
             ]
         }
     ],
-    "Blade": [
+    "1205": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1497,7 +1497,7 @@
             ]
         }
     ],
-    "Jing Yuan": [
+    "1204": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1597,7 +1597,7 @@
             "unlockRequirement": "Lv. 1"
         }
     ],
-    "Luocha": [
+    "1203": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1701,7 +1701,7 @@
             "unlockRequirement": "Lv. 80"
         }
     ],
-    "Topaz & Numby": [
+    "1112": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1803,7 +1803,7 @@
             ]
         }
     ],
-    "Clara": [
+    "1107": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -1909,7 +1909,7 @@
             ]
         }
     ],
-    "Gepard": [
+    "1104": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2013,7 +2013,7 @@
             ]
         }
     ],
-    "Seele": [
+    "1102": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2115,7 +2115,7 @@
             ]
         }
     ],
-    "Bronya": [
+    "1101": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2221,7 +2221,7 @@
             ]
         }
     ],
-    "Silver Wolf": [
+    "1006": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2345,7 +2345,7 @@
             ]
         }
     ],
-    "Kafka": [
+    "1005": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2469,7 +2469,7 @@
             ]
         }
     ],
-    "Welt": [
+    "1004": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2593,7 +2593,7 @@
             ]
         }
     ],
-    "Himeko": [
+    "1003": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2693,7 +2693,7 @@
             "unlockRequirement": "Lv. 1"
         }
     ],
-    "Trailblazer - Caelus - Destruction": [
+    "8001": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2799,7 +2799,7 @@
             ]
         }
     ],
-    "Trailblazer - Stelle - Destruction": [
+    "8002": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -2905,7 +2905,7 @@
             ]
         }
     ],
-    "Trailblazer - Caelus - Preservation": [
+    "8003": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3009,7 +3009,7 @@
             ]
         }
     ],
-    "Trailblazer - Stelle - Preservation": [
+    "8004": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3113,7 +3113,7 @@
             ]
         }
     ],
-    "Misha": [
+    "1312": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3219,7 +3219,7 @@
             ]
         }
     ],
-    "Gallagher": [
+    "1301": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3323,7 +3323,7 @@
             "unlockRequirement": "Lv. 80"
         }
     ],
-    "Hanya": [
+    "1215": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3429,7 +3429,7 @@
             ]
         }
     ],
-    "Xueyi": [
+    "1214": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3535,7 +3535,7 @@
             ]
         }
     ],
-    "Guinaifen": [
+    "1210": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3659,7 +3659,7 @@
             ]
         }
     ],
-    "Yukong": [
+    "1207": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3765,7 +3765,7 @@
             ]
         }
     ],
-    "Sushang": [
+    "1206": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3867,7 +3867,7 @@
             ]
         }
     ],
-    "Tingyun": [
+    "1202": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -3973,7 +3973,7 @@
             ]
         }
     ],
-    "Qingque": [
+    "1201": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4073,7 +4073,7 @@
             "unlockRequirement": "Lv. 1"
         }
     ],
-    "Luka": [
+    "1111": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4197,7 +4197,7 @@
             ]
         }
     ],
-    "Lynx": [
+    "1110": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4301,7 +4301,7 @@
             "unlockRequirement": "Lv. 80"
         }
     ],
-    "Hook": [
+    "1109": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4407,7 +4407,7 @@
             ]
         }
     ],
-    "Sampo": [
+    "1108": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4531,7 +4531,7 @@
             ]
         }
     ],
-    "Pela": [
+    "1106": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4655,7 +4655,7 @@
             ]
         }
     ],
-    "Natasha": [
+    "1105": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4759,7 +4759,7 @@
             "unlockRequirement": "Lv. 80"
         }
     ],
-    "Serval": [
+    "1103": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4859,7 +4859,7 @@
             "unlockRequirement": "Lv. 1"
         }
     ],
-    "Herta": [
+    "1013": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -4959,7 +4959,7 @@
             "unlockRequirement": "Lv. 1"
         }
     ],
-    "Asta": [
+    "1009": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -5065,7 +5065,7 @@
             ]
         }
     ],
-    "Arlan": [
+    "1008": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -5171,7 +5171,7 @@
             ]
         }
     ],
-    "Dan Heng": [
+    "1002": [
         {
             "id": "B1",
             "traceLevel": "major",
@@ -5273,7 +5273,7 @@
             ]
         }
     ],
-    "March 7th": [
+    "1001": [
         {
             "id": "B1",
             "traceLevel": "major",
