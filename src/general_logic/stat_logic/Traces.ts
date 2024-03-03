@@ -46,5 +46,20 @@ class MajorTrace implements IMajorTrace {
   ) {}
 }
 
-export type { IMajorTrace, IMinorTrace }
+interface ITrace {
+  id: string;
+  traceLevel: string;
+  unlockRequirement: string;
+  effect?: string;
+  scalingStat?: string;
+  scalingValue?: number;
+  nextObjects?: ITrace[];
+  unlocked?: boolean;
+}
+
+interface ITraceData {
+  [key: string]: ITrace[];
+}
+
+export type { IMajorTrace, IMinorTrace, ITrace, ITraceData }
 export { MinorTrace, MajorTrace, unlockCondition }

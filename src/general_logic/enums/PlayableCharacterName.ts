@@ -45,5 +45,8 @@ export enum PlayableCharacterName {
   drRatio = 'Dr. Ratio',
   blackSwan = 'Black Swan',
   sparkle = 'Sparkle',
-  misha = 'Misha'
+  misha = 'Misha',
+  acheron = 'Acheron',
+  aventurine = 'Aventurine',
+  gallagher = 'Gallagher'
 }

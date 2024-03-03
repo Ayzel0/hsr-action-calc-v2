@@ -1,7 +1,7 @@
-import { Character, Summon, Enemy } from '../general_logic/Actor';
-import type { IStatusEffect } from '../general_logic/StatusEffect';
-import { DebuffCategory, defDown } from '../general_logic/StatusEffect';
-import EventEmitter from '../general_logic/EventEmitter';
+import { Character, Summon, Enemy } from '../../general_logic/Actor';
+import type { IStatusEffect } from '../../general_logic/StatusEffect';
+import { DebuffCategory, defDown } from '../../general_logic/StatusEffect';
+import EventEmitter from '../../general_logic/EventEmitter';
 
 // enums
 import { 
@@ -11,10 +11,10 @@ import {
   Path,
   PlayableCharacterName,
   ScalingStat
-} from '../general_logic/enums';
+} from '../../general_logic/enums';
 
 // stat page
-import type { ICharStatPage, ILCStatPage } from '../general_logic/stat_logic';
+import type { ICharStatPage, ILCStatPage } from '../../general_logic/stat_logic';
 
 // character stats json
 import charStatsJSON from '../general_logic/data/hsr_char_stats.json';

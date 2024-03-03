@@ -1,5 +1,5 @@
 import type { ILCStatPage } from './LCStatPage';
-import { MinorTrace, MajorTrace } from '.';
+import { ITrace } from '.';
 
 interface ICharStatPage {
   // character level
@@ -13,7 +13,7 @@ interface ICharStatPage {
   ultLevel: number;
   talentLevel: number;
   
-  traces: Array<[MinorTrace | MajorTrace]>;
+  traces: ITrace[];
 
   // light cone
   lightCone: ILCStatPage;

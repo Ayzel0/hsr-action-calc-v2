@@ -3,7 +3,7 @@ import charStats from '../../../data/hsr_char_stats.json';
 import { useState, useEffect, useRef } from 'react';
 import CharTemplate from "../../../general_logic/characters/CharTemplate";
 import useWindowDimensions from "../../../utility_functions/useWindowDimensions";
-import { Character } from "../../../general_logic/Actor";
+import { PlayableCharacterName } from "../../../general_logic/enums";
 
 // interfaces for loading from charStats
 interface Level1BaseStats {
@@ -66,6 +66,19 @@ const Simulator = () => {
         }
       }))
     });
+
+    // debug
+    const myChar = new CharTemplate(
+      PlayableCharacterName.acheron,
+      '1308',
+      80,
+      6,
+      0,
+      6,
+      10,
+      10,
+      10,
+    );
   }, []);
 
   // debug
@@ -109,6 +122,7 @@ const Simulator = () => {
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if(searchRef.current && !searchRef.current.contains(event.target as Node)) {
+        setSearchQuery('');
         handleCloseSearchMode();
       }
     }
@@ -130,7 +144,7 @@ const Simulator = () => {
             onClick={handleOpenSearchMode}
           >
             <svg fill="white" data-icon="plus" width="30" height="30" viewBox="0 0 20 20" role="img">
-              <path d="M16 9h-5V4c0-.55-.45-1-1-1s-1 .45-1 1v5H4c-.55 0-1 .45-1 1s.45 1 1 1h5v5c0 .55.45 1 1 1s1-.45 1-1v-5h5c.55 0 1-.45 1-1s-.45-1-1-1z" fill-rule="evenodd" />    
+              <path d="M16 9h-5V4c0-.55-.45-1-1-1s-1 .45-1 1v5H4c-.55 0-1 .45-1 1s.45 1 1 1h5v5c0 .55.45 1 1 1s1-.45 1-1v-5h5c.55 0 1-.45 1-1s-.45-1-1-1z" fillRule="evenodd" />    
             </svg>
           </div>
         </div>
@@ -153,7 +167,6 @@ const Simulator = () => {
                   <div 
                     key={id} 
                     className='bg-midnight-green'
-                    
                   >
                     <div>
                       <img src={character.ImageLink} alt={character.Name} className=''/>
