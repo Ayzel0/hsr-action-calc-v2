@@ -3,6 +3,7 @@ import lcJSON from '../../data/hsr_lc_stats.json';
 import { Path } from "../enums";
 
 interface IndividualLCStats {
+  Path: string;
   Name: string;
   ImageLink: string;
   BaseStats: {
@@ -19,9 +20,14 @@ interface LCJSON {
 }
 
 export default class LCTemplate implements ILCStatPage {
+  // base stats
   public baseATK: number = -1;
   public baseDEF: number = -1;
   public baseHP: number = -1;
+
+  // info looked up using id
+  public lcName: string;
+  public lcPath: Path | undefined;
   
   constructor (
     // implementing interface
@@ -31,7 +37,6 @@ export default class LCTemplate implements ILCStatPage {
 
     // LC unique data
     public lcID: string,
-    public lcPath: Path,
   ) {
     // read json
     const typedLCJSON = lcJSON as LCJSON;
@@ -44,6 +49,20 @@ export default class LCTemplate implements ILCStatPage {
       this.baseDEF = individualLCStats.BaseStats[levelKey]['DEF'];
       this.baseHP = individualLCStats.BaseStats[levelKey]['HP'];
     }
+
+    // get name
+    this.lcName = typedLCJSON[this.lcID].Name;
+
+    // get path
+    const pathString = typedLCJSON[this.lcID].Path;
+    
+    const getEnumByValue = (value: string): Path | undefined => {
+      const entries = Object.entries(Path) as [Path, string][];
+      const foundEntry = entries.find(([, enumValue]) => enumValue === value);
+      return foundEntry ? foundEntry[0] : undefined;
+    }
+
+    this.lcPath = getEnumByValue(pathString);
   }
 }
 

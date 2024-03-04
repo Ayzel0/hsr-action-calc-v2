@@ -1,5 +1,6 @@
 {
     "23000": {
+        "Path": "Erudition",
         "Name": "Night on the Milky Way",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23000.webp",
         "BaseStats": {
@@ -436,6 +437,7 @@
         }
     },
     "23001": {
+        "Path": "The Hunt",
         "Name": "In the Night",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23001.webp",
         "BaseStats": {
@@ -872,6 +874,7 @@
         }
     },
     "23002": {
+        "Path": "Destruction",
         "Name": "Something Irreplaceable",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23002.webp",
         "BaseStats": {
@@ -1308,6 +1311,7 @@
         }
     },
     "23003": {
+        "Path": "Harmony",
         "Name": "But the Battle Isn't Over",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23003.webp",
         "BaseStats": {
@@ -1744,6 +1748,7 @@
         }
     },
     "23004": {
+        "Path": "Nihility",
         "Name": "In the Name of the World",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23004.webp",
         "BaseStats": {
@@ -2180,6 +2185,7 @@
         }
     },
     "23005": {
+        "Path": "Preservation",
         "Name": "Moment of Victory",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23005.webp",
         "BaseStats": {
@@ -2616,6 +2622,7 @@
         }
     },
     "23006": {
+        "Path": "Nihility",
         "Name": "Patience Is All You Need",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23006.webp",
         "BaseStats": {
@@ -3052,6 +3059,7 @@
         }
     },
     "23007": {
+        "Path": "Nihility",
         "Name": "Incessant Rain",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23007.webp",
         "BaseStats": {
@@ -3488,6 +3496,7 @@
         }
     },
     "23008": {
+        "Path": "Abundance",
         "Name": "Echoes of the Coffin",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23008.webp",
         "BaseStats": {
@@ -3924,6 +3933,7 @@
         }
     },
     "23009": {
+        "Path": "Destruction",
         "Name": "The Unreachable Side",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23009.webp",
         "BaseStats": {
@@ -4360,6 +4370,7 @@
         }
     },
     "23010": {
+        "Path": "Erudition",
         "Name": "Before Dawn",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23010.webp",
         "BaseStats": {
@@ -4796,6 +4807,7 @@
         }
     },
     "23011": {
+        "Path": "Preservation",
         "Name": "She Already Shut Her Eyes",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23011.webp",
         "BaseStats": {
@@ -5232,6 +5244,7 @@
         }
     },
     "23012": {
+        "Path": "The Hunt",
         "Name": "Sleep Like the Dead",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23012.webp",
         "BaseStats": {
@@ -5668,6 +5681,7 @@
         }
     },
     "23013": {
+        "Path": "Abundance",
         "Name": "Time Waits for No One",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23013.webp",
         "BaseStats": {
@@ -6104,6 +6118,7 @@
         }
     },
     "23014": {
+        "Path": "Destruction",
         "Name": "I Shall Be My Own Sword",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23014.webp",
         "BaseStats": {
@@ -6540,6 +6555,7 @@
         }
     },
     "23015": {
+        "Path": "Destruction",
         "Name": "Brighter Than the Sun",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23015.webp",
         "BaseStats": {
@@ -6976,6 +6992,7 @@
         }
     },
     "23016": {
+        "Path": "The Hunt",
         "Name": "Worrisome, Blissful",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23016.webp",
         "BaseStats": {
@@ -7412,6 +7429,7 @@
         }
     },
     "23017": {
+        "Path": "Abundance",
         "Name": "Night of Fright",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23017.webp",
         "BaseStats": {
@@ -7848,6 +7866,7 @@
         }
     },
     "23018": {
+        "Path": "Erudition",
         "Name": "An Instant Before A Gaze",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23018.webp",
         "BaseStats": {
@@ -8284,6 +8303,7 @@
         }
     },
     "23019": {
+        "Path": "Harmony",
         "Name": "Past Self in Mirror",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23019.webp",
         "BaseStats": {
@@ -8720,6 +8740,7 @@
         }
     },
     "23020": {
+        "Path": "The Hunt",
         "Name": "Baptism of Pure Thought",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23020.webp",
         "BaseStats": {
@@ -9156,6 +9177,7 @@
         }
     },
     "23021": {
+        "Path": "Harmony",
         "Name": "Earthly Escapade",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23021.webp",
         "BaseStats": {
@@ -9592,6 +9614,7 @@
         }
     },
     "23022": {
+        "Path": "Nihility",
         "Name": "Reforged Remembrance",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23022.webp",
         "BaseStats": {
@@ -10028,6 +10051,7 @@
         }
     },
     "23023": {
+        "Path": "Preservation",
         "Name": "Inherently Unjust Destiny",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23023.webp",
         "BaseStats": {
@@ -10464,6 +10488,7 @@
         }
     },
     "23024": {
+        "Path": "Nihility",
         "Name": "Along the Passing Shore",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/23024.webp",
         "BaseStats": {
@@ -10900,6 +10925,7 @@
         }
     },
     "24000": {
+        "Path": "Destruction",
         "Name": "On the Fall of an Aeon",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/24000.webp",
         "BaseStats": {
@@ -11336,6 +11362,7 @@
         }
     },
     "24001": {
+        "Path": "The Hunt",
         "Name": "Cruising in the Stellar Sea",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/24001.webp",
         "BaseStats": {
@@ -11772,6 +11799,7 @@
         }
     },
     "24002": {
+        "Path": "Preservation",
         "Name": "Texture of Memories",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/24002.webp",
         "BaseStats": {
@@ -12208,6 +12236,7 @@
         }
     },
     "24003": {
+        "Path": "Nihility",
         "Name": "Solitary Healing",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/24003.webp",
         "BaseStats": {
@@ -12644,6 +12673,7 @@
         }
     },
     "21000": {
+        "Path": "Abundance",
         "Name": "Post-Op Conversation",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21000.webp",
         "BaseStats": {
@@ -13080,6 +13110,7 @@
         }
     },
     "21001": {
+        "Path": "Nihility",
         "Name": "Good Night and Sleep Well",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21001.webp",
         "BaseStats": {
@@ -13516,6 +13547,7 @@
         }
     },
     "21002": {
+        "Path": "Preservation",
         "Name": "Day One of My New Life",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21002.webp",
         "BaseStats": {
@@ -13952,6 +13984,7 @@
         }
     },
     "21003": {
+        "Path": "The Hunt",
         "Name": "Only Silence Remains",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21003.webp",
         "BaseStats": {
@@ -14388,6 +14421,7 @@
         }
     },
     "21004": {
+        "Path": "Harmony",
         "Name": "Memories of the Past",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21004.webp",
         "BaseStats": {
@@ -14824,6 +14858,7 @@
         }
     },
     "21005": {
+        "Path": "Destruction",
         "Name": "The Moles Welcome You",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21005.webp",
         "BaseStats": {
@@ -15260,6 +15295,7 @@
         }
     },
     "21006": {
+        "Path": "Erudition",
         "Name": "The Birth of the Self",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21006.webp",
         "BaseStats": {
@@ -15696,6 +15732,7 @@
         }
     },
     "21007": {
+        "Path": "Abundance",
         "Name": "Shared Feeling",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21007.webp",
         "BaseStats": {
@@ -16132,6 +16169,7 @@
         }
     },
     "21008": {
+        "Path": "Nihility",
         "Name": "Eyes of the Prey",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21008.webp",
         "BaseStats": {
@@ -16568,6 +16606,7 @@
         }
     },
     "21009": {
+        "Path": "Preservation",
         "Name": "Landau's Choice",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21009.webp",
         "BaseStats": {
@@ -17004,6 +17043,7 @@
         }
     },
     "21010": {
+        "Path": "The Hunt",
         "Name": "Swordplay",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21010.webp",
         "BaseStats": {
@@ -17440,6 +17480,7 @@
         }
     },
     "21011": {
+        "Path": "Harmony",
         "Name": "Planetary Rendezvous",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21011.webp",
         "BaseStats": {
@@ -17876,6 +17917,7 @@
         }
     },
     "21012": {
+        "Path": "Destruction",
         "Name": "A Secret Vow",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21012.webp",
         "BaseStats": {
@@ -18312,6 +18354,7 @@
         }
     },
     "21013": {
+        "Path": "Erudition",
         "Name": "Make the World Clamor",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21013.webp",
         "BaseStats": {
@@ -18748,6 +18791,7 @@
         }
     },
     "21014": {
+        "Path": "Abundance",
         "Name": "Perfect Timing",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21014.webp",
         "BaseStats": {
@@ -19184,6 +19228,7 @@
         }
     },
     "21015": {
+        "Path": "Nihility",
         "Name": "Resolution Shines As Pearls of Sweat",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21015.webp",
         "BaseStats": {
@@ -19620,6 +19665,7 @@
         }
     },
     "21016": {
+        "Path": "Preservation",
         "Name": "Trend of the Universal Market",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21016.webp",
         "BaseStats": {
@@ -20056,6 +20102,7 @@
         }
     },
     "21017": {
+        "Path": "The Hunt",
         "Name": "Subscribe for More!",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21017.webp",
         "BaseStats": {
@@ -20492,6 +20539,7 @@
         }
     },
     "21018": {
+        "Path": "Harmony",
         "Name": "Dance! Dance! Dance!",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21018.webp",
         "BaseStats": {
@@ -20928,6 +20976,7 @@
         }
     },
     "21019": {
+        "Path": "Destruction",
         "Name": "Under the Blue Sky",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21019.webp",
         "BaseStats": {
@@ -21364,6 +21413,7 @@
         }
     },
     "21020": {
+        "Path": "Erudition",
         "Name": "Geniuses' Repose",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21020.webp",
         "BaseStats": {
@@ -21800,6 +21850,7 @@
         }
     },
     "21021": {
+        "Path": "Abundance",
         "Name": "Quid Pro Quo",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21021.webp",
         "BaseStats": {
@@ -22236,6 +22287,7 @@
         }
     },
     "21022": {
+        "Path": "Nihility",
         "Name": "Fermata",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21022.webp",
         "BaseStats": {
@@ -22672,6 +22724,7 @@
         }
     },
     "21023": {
+        "Path": "Preservation",
         "Name": "We Are Wildfire",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21023.webp",
         "BaseStats": {
@@ -23108,6 +23161,7 @@
         }
     },
     "21024": {
+        "Path": "The Hunt",
         "Name": "River Flows in Spring",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21024.webp",
         "BaseStats": {
@@ -23544,6 +23598,7 @@
         }
     },
     "21025": {
+        "Path": "Harmony",
         "Name": "Past and Future",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21025.webp",
         "BaseStats": {
@@ -23980,6 +24035,7 @@
         }
     },
     "21026": {
+        "Path": "Destruction",
         "Name": "Woof! Walk Time!",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21026.webp",
         "BaseStats": {
@@ -24416,6 +24472,7 @@
         }
     },
     "21027": {
+        "Path": "Erudition",
         "Name": "The Seriousness of Breakfast",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21027.webp",
         "BaseStats": {
@@ -24852,6 +24909,7 @@
         }
     },
     "21028": {
+        "Path": "Abundance",
         "Name": "Warmth Shortens Cold Nights",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21028.webp",
         "BaseStats": {
@@ -25288,6 +25346,7 @@
         }
     },
     "21029": {
+        "Path": "Nihility",
         "Name": "We Will Meet Again",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21029.webp",
         "BaseStats": {
@@ -25724,6 +25783,7 @@
         }
     },
     "21030": {
+        "Path": "Preservation",
         "Name": "This Is Me!",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21030.webp",
         "BaseStats": {
@@ -26160,6 +26220,7 @@
         }
     },
     "21031": {
+        "Path": "The Hunt",
         "Name": "Return to Darkness",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21031.webp",
         "BaseStats": {
@@ -26596,6 +26657,7 @@
         }
     },
     "21032": {
+        "Path": "Harmony",
         "Name": "Carve the Moon, Weave the Clouds",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21032.webp",
         "BaseStats": {
@@ -27032,6 +27094,7 @@
         }
     },
     "21033": {
+        "Path": "Destruction",
         "Name": "Nowhere to Run",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21033.webp",
         "BaseStats": {
@@ -27468,6 +27531,7 @@
         }
     },
     "21034": {
+        "Path": "Erudition",
         "Name": "Today Is Another Peaceful Day",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21034.webp",
         "BaseStats": {
@@ -27904,6 +27968,7 @@
         }
     },
     "21035": {
+        "Path": "Abundance",
         "Name": "What Is Real?",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21035.webp",
         "BaseStats": {
@@ -28340,6 +28405,7 @@
         }
     },
     "21036": {
+        "Path": "Harmony",
         "Name": "Dreamville Adventure",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21036.webp",
         "BaseStats": {
@@ -28776,6 +28842,7 @@
         }
     },
     "21037": {
+        "Path": "The Hunt",
         "Name": "Final Victor",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21037.webp",
         "BaseStats": {
@@ -29212,6 +29279,7 @@
         }
     },
     "21038": {
+        "Path": "Destruction",
         "Name": "Flames Afar",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21038.webp",
         "BaseStats": {
@@ -29648,6 +29716,7 @@
         }
     },
     "21039": {
+        "Path": "Preservation",
         "Name": "Destiny's Threads Forewoven",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21039.webp",
         "BaseStats": {
@@ -30084,6 +30153,7 @@
         }
     },
     "21040": {
+        "Path": "Erudition",
         "Name": "The Day The Cosmos Fell",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21040.webp",
         "BaseStats": {
@@ -30520,6 +30590,7 @@
         }
     },
     "21041": {
+        "Path": "Nihility",
         "Name": "It's Showtime",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21041.webp",
         "BaseStats": {
@@ -30956,6 +31027,7 @@
         }
     },
     "21042": {
+        "Path": "Destruction",
         "Name": "Indelible Promise",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21042.webp",
         "BaseStats": {
@@ -31392,6 +31464,7 @@
         }
     },
     "21043": {
+        "Path": "Preservation",
         "Name": "Concert for Two",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/21043.webp",
         "BaseStats": {
@@ -31828,6 +31901,7 @@
         }
     },
     "22000": {
+        "Path": "Nihility",
         "Name": "Before the Tutorial Mission Starts",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/22000.webp",
         "BaseStats": {
@@ -32264,6 +32338,7 @@
         }
     },
     "22001": {
+        "Path": "Abundance",
         "Name": "Hey, Over Here",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/22001.webp",
         "BaseStats": {
@@ -32700,6 +32775,7 @@
         }
     },
     "20000": {
+        "Path": "The Hunt",
         "Name": "Arrows",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20000.webp",
         "BaseStats": {
@@ -33136,6 +33212,7 @@
         }
     },
     "20001": {
+        "Path": "Abundance",
         "Name": "Cornucopia",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20001.webp",
         "BaseStats": {
@@ -33572,6 +33649,7 @@
         }
     },
     "20002": {
+        "Path": "Destruction",
         "Name": "Collapsing Sky",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20002.webp",
         "BaseStats": {
@@ -34008,6 +34086,7 @@
         }
     },
     "20003": {
+        "Path": "Preservation",
         "Name": "Amber",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20003.webp",
         "BaseStats": {
@@ -34444,6 +34523,7 @@
         }
     },
     "20004": {
+        "Path": "Nihility",
         "Name": "Void",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20004.webp",
         "BaseStats": {
@@ -34880,6 +34960,7 @@
         }
     },
     "20005": {
+        "Path": "Harmony",
         "Name": "Chorus",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20005.webp",
         "BaseStats": {
@@ -35316,6 +35397,7 @@
         }
     },
     "20006": {
+        "Path": "Erudition",
         "Name": "Data Bank",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20006.webp",
         "BaseStats": {
@@ -35752,6 +35834,7 @@
         }
     },
     "20007": {
+        "Path": "The Hunt",
         "Name": "Darting Arrow",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20007.webp",
         "BaseStats": {
@@ -36188,6 +36271,7 @@
         }
     },
     "20008": {
+        "Path": "Abundance",
         "Name": "Fine Fruit",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20008.webp",
         "BaseStats": {
@@ -36624,6 +36708,7 @@
         }
     },
     "20009": {
+        "Path": "Destruction",
         "Name": "Shattered Home",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20009.webp",
         "BaseStats": {
@@ -37060,6 +37145,7 @@
         }
     },
     "20010": {
+        "Path": "Preservation",
         "Name": "Defense",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20010.webp",
         "BaseStats": {
@@ -37496,6 +37582,7 @@
         }
     },
     "20011": {
+        "Path": "Nihility",
         "Name": "Loop",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20011.webp",
         "BaseStats": {
@@ -37932,6 +38019,7 @@
         }
     },
     "20012": {
+        "Path": "Harmony",
         "Name": "Meshing Cogs",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20012.webp",
         "BaseStats": {
@@ -38368,6 +38456,7 @@
         }
     },
     "20013": {
+        "Path": "Erudition",
         "Name": "Passkey",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20013.webp",
         "BaseStats": {
@@ -38804,6 +38893,7 @@
         }
     },
     "20014": {
+        "Path": "The Hunt",
         "Name": "Adversarial",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20014.webp",
         "BaseStats": {
@@ -39240,6 +39330,7 @@
         }
     },
     "20015": {
+        "Path": "Abundance",
         "Name": "Multiplication",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20015.webp",
         "BaseStats": {
@@ -39676,6 +39767,7 @@
         }
     },
     "20016": {
+        "Path": "Destruction",
         "Name": "Mutual Demise",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20016.webp",
         "BaseStats": {
@@ -40112,6 +40204,7 @@
         }
     },
     "20017": {
+        "Path": "Preservation",
         "Name": "Pioneering",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20017.webp",
         "BaseStats": {
@@ -40548,6 +40641,7 @@
         }
     },
     "20018": {
+        "Path": "Nihility",
         "Name": "Hidden Shadow",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20018.webp",
         "BaseStats": {
@@ -40984,6 +41078,7 @@
         }
     },
     "20019": {
+        "Path": "Harmony",
         "Name": "Mediation",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20019.webp",
         "BaseStats": {
@@ -41420,6 +41515,7 @@
         }
     },
     "20020": {
+        "Path": "Erudition",
         "Name": "Sagacity",
         "ImageLink": "https://api.hakush.in/hsr/UI/lightconemediumicon/20020.webp",
         "BaseStats": {

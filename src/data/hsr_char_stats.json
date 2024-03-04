@@ -2,6 +2,7 @@
     "1308": {
         "Name": "Acheron",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1308.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 95.04,
@@ -442,6 +443,7 @@
     "1307": {
         "Name": "Black Swan",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1307.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 89.76,
@@ -882,6 +884,7 @@
     "1306": {
         "Name": "Sparkle",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1306.webp",
+        "Path": "Harmony",
         "BaseStats": {
             "1": {
                 "ATK": 71.28,
@@ -1322,6 +1325,7 @@
     "1305": {
         "Name": "Dr. Ratio",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1305.webp",
+        "Path": "The Hunt",
         "BaseStats": {
             "1": {
                 "ATK": 105.6,
@@ -1762,6 +1766,7 @@
     "1304": {
         "Name": "Aventurine",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1304.webp",
+        "Path": "Preservation",
         "BaseStats": {
             "1": {
                 "ATK": 60.72,
@@ -2202,6 +2207,7 @@
     "1303": {
         "Name": "Ruan Mei",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1303.webp",
+        "Path": "Harmony",
         "BaseStats": {
             "1": {
                 "ATK": 89.76,
@@ -2642,6 +2648,7 @@
     "1302": {
         "Name": "Argenti",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1302.webp",
+        "Path": "Erudition",
         "BaseStats": {
             "1": {
                 "ATK": 100.32,
@@ -3082,6 +3089,7 @@
     "1217": {
         "Name": "Huohuo",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1217.webp",
+        "Path": "Abundance",
         "BaseStats": {
             "1": {
                 "ATK": 81.84,
@@ -3522,6 +3530,7 @@
     "1213": {
         "Name": "Dan Heng \u2022 Imbibitor Lunae",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1213.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 95.04,
@@ -3962,6 +3971,7 @@
     "1212": {
         "Name": "Jingliu",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1212.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 92.4,
@@ -4402,6 +4412,7 @@
     "1211": {
         "Name": "Bailu",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1211.webp",
+        "Path": "Abundance",
         "BaseStats": {
             "1": {
                 "ATK": 76.56,
@@ -4842,6 +4853,7 @@
     "1209": {
         "Name": "Yanqing",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1209.webp",
+        "Path": "The Hunt",
         "BaseStats": {
             "1": {
                 "ATK": 92.4,
@@ -5282,6 +5294,7 @@
     "1208": {
         "Name": "Fu Xuan",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1208.webp",
+        "Path": "Preservation",
         "BaseStats": {
             "1": {
                 "ATK": 63.36,
@@ -5722,6 +5735,7 @@
     "1205": {
         "Name": "Blade",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1205.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 73.92,
@@ -6162,6 +6176,7 @@
     "1204": {
         "Name": "Jing Yuan",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1204.webp",
+        "Path": "Erudition",
         "BaseStats": {
             "1": {
                 "ATK": 95.04,
@@ -6602,6 +6617,7 @@
     "1203": {
         "Name": "Luocha",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1203.webp",
+        "Path": "Abundance",
         "BaseStats": {
             "1": {
                 "ATK": 102.96,
@@ -7042,6 +7058,7 @@
     "1112": {
         "Name": "Topaz & Numby",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1112.webp",
+        "Path": "The Hunt",
         "BaseStats": {
             "1": {
                 "ATK": 84.48,
@@ -7482,6 +7499,7 @@
     "1107": {
         "Name": "Clara",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1107.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 100.32,
@@ -7922,6 +7940,7 @@
     "1104": {
         "Name": "Gepard",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1104.webp",
+        "Path": "Preservation",
         "BaseStats": {
             "1": {
                 "ATK": 73.92,
@@ -8362,6 +8381,7 @@
     "1102": {
         "Name": "Seele",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1102.webp",
+        "Path": "The Hunt",
         "BaseStats": {
             "1": {
                 "ATK": 87.12,
@@ -8802,6 +8822,7 @@
     "1101": {
         "Name": "Bronya",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1101.webp",
+        "Path": "Harmony",
         "BaseStats": {
             "1": {
                 "ATK": 79.2,
@@ -9242,6 +9263,7 @@
     "1006": {
         "Name": "Silver Wolf",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1006.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 87.12,
@@ -9682,6 +9704,7 @@
     "1005": {
         "Name": "Kafka",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1005.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 92.4,
@@ -10122,6 +10145,7 @@
     "1004": {
         "Name": "Welt",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1004.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 84.48,
@@ -10562,6 +10586,7 @@
     "1003": {
         "Name": "Himeko",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1003.webp",
+        "Path": "Erudition",
         "BaseStats": {
             "1": {
                 "ATK": 102.96,
@@ -11002,6 +11027,7 @@
     "8001": {
         "Name": "Trailblazer - Caelus - Destruction",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/8001.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 84.48,
@@ -11442,6 +11468,7 @@
     "8002": {
         "Name": "Trailblazer - Stelle - Destruction",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/8002.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 84.48,
@@ -11882,6 +11909,7 @@
     "8003": {
         "Name": "Trailblazer - Caelus - Preservation",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/8003.webp",
+        "Path": "Preservation",
         "BaseStats": {
             "1": {
                 "ATK": 81.84,
@@ -12322,6 +12350,7 @@
     "8004": {
         "Name": "Trailblazer - Stelle - Preservation",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/8004.webp",
+        "Path": "Preservation",
         "BaseStats": {
             "1": {
                 "ATK": 81.84,
@@ -12762,6 +12791,7 @@
     "1312": {
         "Name": "Misha",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1312.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 81.6,
@@ -13202,6 +13232,7 @@
     "1301": {
         "Name": "Gallagher",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1301.webp",
+        "Path": "Abundance",
         "BaseStats": {
             "1": {
                 "ATK": 88.8,
@@ -13642,6 +13673,7 @@
     "1215": {
         "Name": "Hanya",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1215.webp",
+        "Path": "Harmony",
         "BaseStats": {
             "1": {
                 "ATK": 76.8,
@@ -14082,6 +14114,7 @@
     "1214": {
         "Name": "Xueyi",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1214.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 81.6,
@@ -14522,6 +14555,7 @@
     "1210": {
         "Name": "Guinaifen",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1210.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 79.2,
@@ -14962,6 +14996,7 @@
     "1207": {
         "Name": "Yukong",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1207.webp",
+        "Path": "Harmony",
         "BaseStats": {
             "1": {
                 "ATK": 81.6,
@@ -15402,6 +15437,7 @@
     "1206": {
         "Name": "Sushang",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1206.webp",
+        "Path": "The Hunt",
         "BaseStats": {
             "1": {
                 "ATK": 76.8,
@@ -15842,6 +15878,7 @@
     "1202": {
         "Name": "Tingyun",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1202.webp",
+        "Path": "Harmony",
         "BaseStats": {
             "1": {
                 "ATK": 72.0,
@@ -16282,6 +16319,7 @@
     "1201": {
         "Name": "Qingque",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1201.webp",
+        "Path": "Erudition",
         "BaseStats": {
             "1": {
                 "ATK": 88.8,
@@ -16722,6 +16760,7 @@
     "1111": {
         "Name": "Luka",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1111.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 79.2,
@@ -17162,6 +17201,7 @@
     "1110": {
         "Name": "Lynx",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1110.webp",
+        "Path": "Abundance",
         "BaseStats": {
             "1": {
                 "ATK": 67.2,
@@ -17602,6 +17642,7 @@
     "1109": {
         "Name": "Hook",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1109.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 84.0,
@@ -18042,6 +18083,7 @@
     "1108": {
         "Name": "Sampo",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1108.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 84.0,
@@ -18482,6 +18524,7 @@
     "1106": {
         "Name": "Pela",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1106.webp",
+        "Path": "Nihility",
         "BaseStats": {
             "1": {
                 "ATK": 74.4,
@@ -18922,6 +18965,7 @@
     "1105": {
         "Name": "Natasha",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1105.webp",
+        "Path": "Abundance",
         "BaseStats": {
             "1": {
                 "ATK": 64.8,
@@ -19362,6 +19406,7 @@
     "1103": {
         "Name": "Serval",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1103.webp",
+        "Path": "Erudition",
         "BaseStats": {
             "1": {
                 "ATK": 88.8,
@@ -19802,6 +19847,7 @@
     "1013": {
         "Name": "Herta",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1013.webp",
+        "Path": "Erudition",
         "BaseStats": {
             "1": {
                 "ATK": 79.2,
@@ -20242,6 +20288,7 @@
     "1009": {
         "Name": "Asta",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1009.webp",
+        "Path": "Harmony",
         "BaseStats": {
             "1": {
                 "ATK": 69.6,
@@ -20682,6 +20729,7 @@
     "1008": {
         "Name": "Arlan",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1008.webp",
+        "Path": "Destruction",
         "BaseStats": {
             "1": {
                 "ATK": 81.6,
@@ -21122,6 +21170,7 @@
     "1002": {
         "Name": "Dan Heng",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1002.webp",
+        "Path": "The Hunt",
         "BaseStats": {
             "1": {
                 "ATK": 74.4,
@@ -21562,6 +21611,7 @@
     "1001": {
         "Name": "March 7th",
         "ImageLink": "https://api.hakush.in/hsr/UI/avatarshopicon/1001.webp",
+        "Path": "Preservation",
         "BaseStats": {
             "1": {
                 "ATK": 69.6,

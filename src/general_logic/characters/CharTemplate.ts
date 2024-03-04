@@ -3,14 +3,42 @@ import { MinorTrace, MajorTrace, ITrace, ITraceData } from "../stat_logic";
 import LCTemplate from "../light_cones/LCTemplate";
 import { PlayableCharacterName } from "../enums";
 import traceData from '../../data/traces.json';
+import charData from '../../data/hsr_char_stats.json';
+import { Path } from "../enums";
+
+interface StatNumbers {
+  ATK: number;
+  DEF: number;
+  HP: number;
+  BaseSPD?: number;
+  CritDamage?: number;
+  CritRate?: number;
+  BaseAggro?: number;
+}
+
+interface IndividualCharStats {
+  Path: string;
+  ImageLink: string;
+  Name: string;
+  BaseStats: {
+    [key: string]: StatNumbers;
+  }
+}
+
+interface CharDataJSON {
+  [key: string]: IndividualCharStats;
+}
 
 class CharTemplate implements ICharStatPage {
+  // basic information
+  public characterName: PlayableCharacterName | undefined;
+  public characterPath: Path | undefined;
+  
   public traces: ITrace[];
   public lightCone: LCTemplate;
 
   constructor (
     // display information
-    public characterName: PlayableCharacterName,
     public characterID: string,
 
     // base levels
@@ -39,6 +67,28 @@ class CharTemplate implements ICharStatPage {
     let charTraces = typedTraceData[characterID];
     charTraces.forEach(processTrace);
     this.traces = charTraces;
+
+    // search in hsr_char_stats for path
+    const typedCharData = charData as CharDataJSON;
+
+    const getPathValueFromString = (value: string): Path | undefined => {
+      const enumEntries = Object.entries(Path) as [Path, String][];
+      const foundEntry = enumEntries.find(([, enumValue]) => enumValue === value);
+      return foundEntry ? foundEntry[0] : undefined;
+    }
+
+    const charPathString = typedCharData[this.characterID].Path;
+    this.characterPath = getPathValueFromString(charPathString);
+
+    // get character name
+    const getNameValueFromString = (value: string): PlayableCharacterName | undefined => {
+      const enumEntries = Object.entries(PlayableCharacterName) as [PlayableCharacterName, string][];
+      const foundEntry = enumEntries.find(([, enumValue]) => enumValue === value);
+      return foundEntry ? foundEntry[0] : undefined;
+    }
+
+    const charNameString = typedCharData[this.characterID].Name;
+    this.characterName = getNameValueFromString(charNameString);
 
     // set light cone based on recommendation
   }
