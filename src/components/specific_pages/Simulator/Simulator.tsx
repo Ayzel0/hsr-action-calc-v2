@@ -1,5 +1,6 @@
 import Navbar from "../../page_constants/Navbar";
 import charStats from '../../../data/hsr_char_stats.json';
+import lcStats from '../../../data/hsr_lc_stats.json';
 import { useState, useEffect, useRef } from 'react';
 import CharTemplate from "../../../general_logic/characters/CharTemplate";
 import useWindowDimensions from "../../../utility_functions/useWindowDimensions";
@@ -41,14 +42,41 @@ interface CharBasicInfo {
 }
 
 interface CharacterDictionary {
-  [key: string]: CharBasicInfo;
+  [key: string]: CharBasicInfo; // ID as key
+}
+
+interface LCBasicInfo {
+  Name: string;
+  ImageLink: string;
+}
+
+interface LCDictionary {
+  [key: string]: LCBasicInfo;
+}
+
+interface IndividualLCStats {
+  Path: string;
+  Name: string;
+  ImageLink: string;
+  BaseStats: {
+    [key: string]: {
+      ATK: number;
+      DEF: number;
+      HP: number;
+    }
+  }
+}
+
+interface LCJSON {
+  [key: string]: IndividualLCStats;
 }
 
 const Simulator = () => {
   const { width, height } = useWindowDimensions(); // window width and height
 
-  const [activeCharacterList, setActiveCharacterList] = useState<string[]>([]); // characters which the user has selected
+  const [activeCharacterList, setActiveCharacterList] = useState<CharTemplate[]>([]); // characters which the user has selected
   const [characterDictionary, setCharacterDictionary] = useState<CharacterDictionary>({}); // maps ids to basic info (name and picture)
+  const [lcDictionary, setLCDictionary] = useState<LCDictionary>({}) // maps lc ids to name and picture
   const [searchQuery, setSearchQuery] = useState(''); // allows for the user to search for characters
   const [searchFilteredCharacters, setSearchFilteredCharacters] = useState<CharacterDictionary>({}); // results for search query
   const [isSearchModeActive, setIsSearchModeActive] = useState(false); // handle "search mode"
@@ -64,27 +92,21 @@ const Simulator = () => {
           'Name': typedCharStats[charID]['Name'],
           'ImageLink': typedCharStats[charID]['ImageLink'] 
         }
-      }))
+      }));
     });
 
-    // debug
-    const myChar = new CharTemplate(
-      PlayableCharacterName.acheron,
-      '1308',
-      80,
-      6,
-      0,
-      6,
-      10,
-      10,
-      10,
-    );
+    const lcIDs: Array<string> = Object.keys(lcStats);
+    const typedLCIDs: LCJSON = lcStats as LCJSON;
+    lcIDs.forEach((lcID) => {
+      setLCDictionary(previousLCDictionary => ({
+        ...previousLCDictionary, 
+        [lcID]: {
+          'Name': typedLCIDs[lcID]['Name'],
+          'ImageLink': typedLCIDs[lcID]['ImageLink']
+        }
+      }))
+    })
   }, []);
-
-  // debug
-  useEffect(() => {
-    console.log(characterDictionary);
-  }, [characterDictionary]);
 
   // update filteredCharacters when search query changes
   useEffect(() => {
@@ -116,7 +138,21 @@ const Simulator = () => {
 
   // add characters to the list
   const handleAddCharacter = (charName: string) => {
-    setActiveCharacterList([...activeCharacterList, charName]);
+    // get the character ID corresponding to charName string
+    const getCharIDFromString = (charName: string): string => {
+      // look up in char dictionary
+      const idKeys = Object.keys(characterDictionary);
+      const characterID = idKeys.find((id) => charName === characterDictionary[id].Name);
+      return characterID ? characterID : '8001'; // returns Male Physblazer if can't find character
+    }
+
+    const charIDs: string[] = activeCharacterList.map((char) => char.characterID);
+    const charID: string = getCharIDFromString(charName);
+    if (!charIDs.includes(charID)) {
+      const newChar = new CharTemplate(charID);
+      setActiveCharacterList([...activeCharacterList, newChar]);
+      console.log(newChar);
+    }
   }
 
   useEffect(() => {
@@ -138,15 +174,35 @@ const Simulator = () => {
       <Navbar />
       <div> { /* selected characters */ }
         <h1 className='text-center text-white text-2xl font-bold mt-5 mb-2'>Active Characters</h1>
-        <div className={`grid grid-cols-4 gap-5 ${width > 1000 ? 'mx-[25vw]' : 'mx-0'}`}>
-          <div 
-            className="bg-slate-600 rounded-md hover:bg-slate-500 flex items-center justify-center min-h-[150px]"
-            onClick={handleOpenSearchMode}
-          >
-            <svg fill="white" data-icon="plus" width="30" height="30" viewBox="0 0 20 20" role="img">
-              <path d="M16 9h-5V4c0-.55-.45-1-1-1s-1 .45-1 1v5H4c-.55 0-1 .45-1 1s.45 1 1 1h5v5c0 .55.45 1 1 1s1-.45 1-1v-5h5c.55 0 1-.45 1-1s-.45-1-1-1z" fillRule="evenodd" />    
-            </svg>
-          </div>
+        <div className={`grid gap-5 ${width > 1000 ? 'mx-[10vw] grid-cols-4' : 'mx-0 grid-cols-2'}`}>
+          {activeCharacterList && activeCharacterList.map((char) => (
+            <div 
+              key={char.characterID}
+              className='bg-off-white rounded min-h-[200px] flex flex-col items-center'
+            >
+              <div className='flex flex-row justify-center'>
+                <img 
+                  src={characterDictionary[char.characterID].ImageLink} 
+                  className='w-[40%] mx-2'
+                />
+                <img 
+                  src={lcDictionary[char.lightCone.lcID].ImageLink} 
+                  className='w-[40%] mx-2'
+                />
+              </div>
+              <p>{char.characterName}</p>
+            </div>
+          ))}
+          {activeCharacterList.length < 4 &&
+            <div 
+              className="bg-slate-600 rounded-md hover:bg-slate-500 flex items-center justify-center min-h-[200px]"
+              onClick={handleOpenSearchMode}
+            >
+              <svg fill="white" data-icon="plus" width="30" height="30" viewBox="0 0 20 20" role="img">
+                <path d="M16 9h-5V4c0-.55-.45-1-1-1s-1 .45-1 1v5H4c-.55 0-1 .45-1 1s.45 1 1 1h5v5c0 .55.45 1 1 1s1-.45 1-1v-5h5c.55 0 1-.45 1-1s-.45-1-1-1z" fillRule="evenodd" />    
+              </svg>
+            </div>
+          }
         </div>
       </div>
       {isSearchModeActive &&
@@ -166,7 +222,8 @@ const Simulator = () => {
                 {Object.entries(searchFilteredCharacters).map(([id, character]) => (
                   <div 
                     key={id} 
-                    className='bg-midnight-green'
+                    className='bg-midnight-green cursor-pointer'
+                    onClick={() => handleAddCharacter(character.Name)}
                   >
                     <div>
                       <img src={character.ImageLink} alt={character.Name} className=''/>

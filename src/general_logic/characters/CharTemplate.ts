@@ -1,10 +1,12 @@
-import type { ICharStatPage, ILCStatPage } from "../stat_logic";
-import { MinorTrace, MajorTrace, ITrace, ITraceData } from "../stat_logic";
+import type { ICharStatPage } from "../stat_logic";
+import { ITrace, ITraceData } from "../stat_logic";
 import LCTemplate from "../light_cones/LCTemplate";
 import { PlayableCharacterName } from "../enums";
 import traceData from '../../data/traces.json';
 import charData from '../../data/hsr_char_stats.json';
 import { Path } from "../enums";
+import defaultLightCones from "../defaults/DefaultLightCone";
+import defaultCharStats from '../defaults/DefaultCharStats';
 
 interface StatNumbers {
   ATK: number;
@@ -29,6 +31,14 @@ interface CharDataJSON {
   [key: string]: IndividualCharStats;
 }
 
+interface IDefaultLC {
+  [key: string]: string;
+}
+
+interface IDefaultCharStats {
+  [key: string]: number;
+}
+
 class CharTemplate implements ICharStatPage {
   // basic information
   public characterName: PlayableCharacterName | undefined;
@@ -42,15 +52,15 @@ class CharTemplate implements ICharStatPage {
     public characterID: string,
 
     // base levels
-    public characterLevel: number,
-    public ascensionLevel: number,
-    public eidolonLevel: number,
+    public characterLevel: number = defaultCharStats['defaultCharLevel'],
+    public ascensionLevel: number = defaultCharStats['defaultCharAscension'],
+    public eidolonLevel: number = defaultCharStats['defaultEidolonLevel'],
     
     // skill levels
-    public basicLevel: number,
-    public skillLevel: number,
-    public ultLevel: number,
-    public talentLevel: number,
+    public basicLevel: number = defaultCharStats['defaultBasicLevel'],
+    public skillLevel: number = defaultCharStats['defaultSkillLevel'],
+    public ultLevel: number = defaultCharStats['defaultUltLevel'],
+    public talentLevel: number = defaultCharStats['defaultTalentLevel'],
   ) { 
     // function to handle trace unlocks
     const processTrace = (trace: ITrace) => {
@@ -68,29 +78,32 @@ class CharTemplate implements ICharStatPage {
     charTraces.forEach(processTrace);
     this.traces = charTraces;
 
-    // search in hsr_char_stats for path
+    // allow lookups
     const typedCharData = charData as CharDataJSON;
 
-    const getPathValueFromString = (value: string): Path | undefined => {
-      const enumEntries = Object.entries(Path) as [Path, String][];
-      const foundEntry = enumEntries.find(([, enumValue]) => enumValue === value);
-      return foundEntry ? foundEntry[0] : undefined;
+    // get char path
+    if (typedCharData && typedCharData[characterID].Path) {
+      this.characterPath = typedCharData[characterID].Path as Path;
     }
-
-    const charPathString = typedCharData[this.characterID].Path;
-    this.characterPath = getPathValueFromString(charPathString);
 
     // get character name
-    const getNameValueFromString = (value: string): PlayableCharacterName | undefined => {
-      const enumEntries = Object.entries(PlayableCharacterName) as [PlayableCharacterName, string][];
-      const foundEntry = enumEntries.find(([, enumValue]) => enumValue === value);
-      return foundEntry ? foundEntry[0] : undefined;
+    if (typedCharData && typedCharData[characterID].Name) {
+      this.characterName = typedCharData[characterID].Name as PlayableCharacterName;
     }
 
-    const charNameString = typedCharData[this.characterID].Name;
-    this.characterName = getNameValueFromString(charNameString);
-
     // set light cone based on recommendation
+
+    // get default light cone data
+    const typedDefaultLightCones = defaultLightCones as IDefaultLC;
+    const defaultLightConeID = typedDefaultLightCones[this.characterID];
+
+    // create new light cone 
+    this.lightCone = new LCTemplate(
+      80,
+      6,
+      1,
+      defaultLightConeID
+    );
   }
 }
 

@@ -31,9 +31,9 @@ export default class LCTemplate implements ILCStatPage {
   
   constructor (
     // implementing interface
-    public lcLevel: number,
-    public ascensionLevel: number,
-    public superimpositionLevel: number,
+    public lcLevel: number = 80,
+    public ascensionLevel: number = 6,
+    public superimpositionLevel: number = 1,
 
     // LC unique data
     public lcID: string,
@@ -54,16 +54,11 @@ export default class LCTemplate implements ILCStatPage {
     this.lcName = typedLCJSON[this.lcID].Name;
 
     // get path
-    const pathString = typedLCJSON[this.lcID].Path;
-    
-    const getEnumByValue = (value: string): Path | undefined => {
-      const entries = Object.entries(Path) as [Path, string][];
-      const foundEntry = entries.find(([, enumValue]) => enumValue === value);
-      return foundEntry ? foundEntry[0] : undefined;
+    if (typedLCJSON && typedLCJSON[this.lcID].Path) {
+      this.lcPath = typedLCJSON[this.lcID].Path as Path;
     }
-
-    this.lcPath = getEnumByValue(pathString);
   }
 }
 
 export { LCTemplate };
+export type { IndividualLCStats, LCJSON };
