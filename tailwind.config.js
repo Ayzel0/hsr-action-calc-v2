@@ -10,6 +10,7 @@ export default {
         'midnight-green': '#1A535C',
         'dark-midnight-green': '#1a435c',
         'teal': '#4ecdc4',
+        'dark-teal': '#2da199',
         'off-white': '#f7fff7',
         'offer-white': '#e5e5e5'
       }

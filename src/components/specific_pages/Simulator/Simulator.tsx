@@ -138,21 +138,27 @@ const Simulator = () => {
 
   // add characters to the list
   const handleAddCharacter = (charName: string) => {
-    // get the character ID corresponding to charName string
-    const getCharIDFromString = (charName: string): string => {
-      // look up in char dictionary
-      const idKeys = Object.keys(characterDictionary);
-      const characterID = idKeys.find((id) => charName === characterDictionary[id].Name);
-      return characterID ? characterID : '8001'; // returns Male Physblazer if can't find character
-    }
+    if (activeCharacterList.length < 4) {
+      // get the character ID corresponding to charName string
+      const getCharIDFromString = (charName: string): string => {
+        // look up in char dictionary
+        const idKeys = Object.keys(characterDictionary);
+        const characterID = idKeys.find((id) => charName === characterDictionary[id].Name);
+        return characterID ? characterID : '8001'; // returns Male Physblazer if can't find character
+      }
 
-    const charIDs: string[] = activeCharacterList.map((char) => char.characterID);
-    const charID: string = getCharIDFromString(charName);
-    if (!charIDs.includes(charID)) {
-      const newChar = new CharTemplate(charID);
-      setActiveCharacterList([...activeCharacterList, newChar]);
-      console.log(newChar);
+      const charIDs: string[] = activeCharacterList.map((char) => char.characterID);
+      const charID: string = getCharIDFromString(charName);
+      if (!charIDs.includes(charID)) {
+        const newChar = new CharTemplate(charID);
+        setActiveCharacterList([...activeCharacterList, newChar]);
+        console.log(newChar);
+      }
     }
+  }
+
+  const handleRemoveCharacter = (char: CharTemplate) => {
+    setActiveCharacterList(activeCharacterList.filter((filterChar) => filterChar !== char));
   }
 
   useEffect(() => {
@@ -178,24 +184,45 @@ const Simulator = () => {
           {activeCharacterList && activeCharacterList.map((char) => (
             <div 
               key={char.characterID}
-              className='bg-off-white rounded min-h-[200px] flex flex-col items-center'
+              className='bg-off-white rounded-lg flex flex-col items-center relative'
             >
-              <div className='flex flex-row justify-center'>
-                <img 
-                  src={characterDictionary[char.characterID].ImageLink} 
-                  className='w-[40%] mx-2'
-                />
+              <div className='absolute bg-red-500 p-1 rounded right-2 top-2 hover:bg-red-600 opacity-75' onClick={() => handleRemoveCharacter(char)}>
+                <svg data-icon="cross" width="16" height="16" viewBox="0 0 16 16" role="img">
+                  <path d="M9.41 8l3.29-3.29c.19-.18.3-.43.3-.71a1.003 1.003 0 00-1.71-.71L8 6.59l-3.29-3.3a1.003 1.003 0 00-1.42 1.42L6.59 8 3.3 11.29c-.19.18-.3.43-.3.71a1.003 1.003 0 001.71.71L8 9.41l3.29 3.29c.18.19.43.3.71.3a1.003 1.003 0 00.71-1.71L9.41 8z" fill-rule="evenodd"></path>
+                </svg>
+              </div>
+              <div className='flex flex-row justify-center w-[100%] flex-grow'>
+                <div className='bg-slate-600 flex rounded-t-md w-[100%] '>
+                  <div className='p-4 text-white'>
+                    <p className='font-semibold text-lg'>{char.characterName} (E{char.eidolonLevel})</p>
+                    <div className='ml-2 mt-1'>
+                      <p>Lv. {char.characterLevel}</p>
+                      <p>Skills: {char.basicLevel}/{char.skillLevel}/{char.ultLevel}/{char.talentLevel}</p>
+                    </div>
+                  </div>
+                  <img 
+                    src={characterDictionary[char.characterID].ImageLink} 
+                    className='h-[125px] ml-auto'
+                  />
+                </div>
+              </div>
+              <div className='bg-slate-800 w-[100%] rounded-b-md flex flex-grow'>
                 <img 
                   src={lcDictionary[char.lightCone.lcID].ImageLink} 
-                  className='w-[40%] mx-2'
+                  className='w-[80px] h-[95px] my-2 ml-2'
                 />
+                <div className='bg-dark-teal rounded w-[100%] p-2 m-4'>
+                  <p className='font-semibold text-md'>{char.lightCone.lcName} (S{char.lightCone.superimpositionLevel})</p>
+                  <div className='ml-2'>
+                    <p>Lv. {char.lightCone.lcLevel}</p>
+                  </div>
+                </div>
               </div>
-              <p>{char.characterName}</p>
             </div>
           ))}
           {activeCharacterList.length < 4 &&
             <div 
-              className="bg-slate-600 rounded-md hover:bg-slate-500 flex items-center justify-center min-h-[200px]"
+              className="bg-slate-600 rounded-md hover:bg-slate-500 flex items-center justify-center min-h-[225px]"
               onClick={handleOpenSearchMode}
             >
               <svg fill="white" data-icon="plus" width="30" height="30" viewBox="0 0 20 20" role="img">

@@ -31,10 +31,10 @@ const defaultLightCones = { // key = char ID, value = light cone ID
   '8004': '24002', // Stelle Preservation and Texture of Memories
 
   // 4 stars
-  '1312': '24002', // Misha and Fall of an Aeon
+  '1312': '24000', // Misha and Fall of an Aeon
   '1301': '21035', // Gallagher and What is Real
   '1215': '20012', // Hanya and Meshing Cogs
-  '1214': '24002', // Xueyi and Fall of an Aeon
+  '1214': '24000', // Xueyi and Fall of an Aeon
   '1210': '21008', // Guinaifen and Eyes of the Prey
   '1207': '20012', // Yukong and Meshing Cogs
   '1206': '21010', // Sushang and Swordplay
@@ -42,14 +42,14 @@ const defaultLightCones = { // key = char ID, value = light cone ID
   '1201': '21034', // Qingque and Peaceful Day
   '1111': '21001', // Luka and Good Night Sleep Well
   '1110': '21021', // Lynx and Quid Pro Quo
-  '1109': '24002', // Hook and Fall of an Aeon
+  '1109': '24000', // Hook and Fall of an Aeon
   '1108': '21008', // Sampo and Eyes of the Prey
   '1106': '21015', // Pela and Resolution Shines as Pearls of Sweat
   '1105': '21000', // Natasha and Post-Op Conversation
   '1103': '21027', // Serval and Seriousness of Breakfast
   '1013': '21006', // Herta and Birth of the Self
   '1009': '20012', // Asta and Meshing Cogs
-  '1008': '24002', // Arlan and Fall of an Aeon
+  '1008': '24000', // Arlan and Fall of an Aeon
   '1002': '24001', // Dan Heng and Cruising in the Stellar Sea
   '1001': '21009', // March 7th and Landau's Choice
 }
