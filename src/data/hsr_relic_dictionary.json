@@ -1,0 +1,194 @@
+{
+    "101": {
+        "Name": "Passerby of Wandering Cloud",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71000.webp",
+        "ImagePath": "../assets/relic_images/PasserbyofWanderingCloud.webp"
+    },
+    "102": {
+        "Name": "Musketeer of Wild Wheat",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71001.webp",
+        "ImagePath": "../assets/relic_images/MusketeerofWildWheat.webp"
+    },
+    "103": {
+        "Name": "Knight of Purity Palace",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71002.webp",
+        "ImagePath": "../assets/relic_images/KnightofPurityPalace.webp"
+    },
+    "104": {
+        "Name": "Hunter of Glacial Forest",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71003.webp",
+        "ImagePath": "../assets/relic_images/HunterofGlacialForest.webp"
+    },
+    "105": {
+        "Name": "Champion of Streetwise Boxing",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71004.webp",
+        "ImagePath": "../assets/relic_images/ChampionofStreetwiseBoxing.webp"
+    },
+    "106": {
+        "Name": "Guard of Wuthering Snow",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71005.webp",
+        "ImagePath": "../assets/relic_images/GuardofWutheringSnow.webp"
+    },
+    "107": {
+        "Name": "Firesmith of Lava-Forging",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71006.webp",
+        "ImagePath": "../assets/relic_images/FiresmithofLava-Forging.webp"
+    },
+    "108": {
+        "Name": "Genius of Brilliant Stars",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71007.webp",
+        "ImagePath": "../assets/relic_images/GeniusofBrilliantStars.webp"
+    },
+    "109": {
+        "Name": "Band of Sizzling Thunder",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71008.webp",
+        "ImagePath": "../assets/relic_images/BandofSizzlingThunder.webp"
+    },
+    "110": {
+        "Name": "Eagle of Twilight Line",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71009.webp",
+        "ImagePath": "../assets/relic_images/EagleofTwilightLine.webp"
+    },
+    "111": {
+        "Name": "Thief of Shooting Meteor",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71010.webp",
+        "ImagePath": "../assets/relic_images/ThiefofShootingMeteor.webp"
+    },
+    "112": {
+        "Name": "Wastelander of Banditry Desert",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71011.webp",
+        "ImagePath": "../assets/relic_images/WastelanderofBanditryDesert.webp"
+    },
+    "113": {
+        "Name": "Longevous Disciple",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71020.webp",
+        "ImagePath": "../assets/relic_images/LongevousDisciple.webp"
+    },
+    "114": {
+        "Name": "Messenger Traversing Hackerspace",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71021.webp",
+        "ImagePath": "../assets/relic_images/MessengerTraversingHackerspace.webp"
+    },
+    "115": {
+        "Name": "The Ashblazing Grand Duke",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71024.webp",
+        "ImagePath": "../assets/relic_images/TheAshblazingGrandDuke.webp"
+    },
+    "116": {
+        "Name": "Prisoner in Deep Confinement",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71025.webp",
+        "ImagePath": "../assets/relic_images/PrisonerinDeepConfinement.webp"
+    },
+    "117": {
+        "Name": "Pioneer Diver of Dead Waters",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71028.webp",
+        "ImagePath": "../assets/relic_images/PioneerDiverofDeadWaters.webp"
+    },
+    "118": {
+        "Name": "Watchmaker, Master of Dream Machinations",
+        "RelicType": "Relic",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71029.webp",
+        "ImagePath": "../assets/relic_images/Watchmaker,MasterofDreamMachinations.webp"
+    },
+    "301": {
+        "Name": "Space Sealing Station",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71012.webp",
+        "ImagePath": "../assets/relic_images/SpaceSealingStation.webp"
+    },
+    "302": {
+        "Name": "Fleet of the Ageless",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71013.webp",
+        "ImagePath": "../assets/relic_images/FleetoftheAgeless.webp"
+    },
+    "303": {
+        "Name": "Pan-Cosmic Commercial Enterprise",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71014.webp",
+        "ImagePath": "../assets/relic_images/Pan-CosmicCommercialEnterprise.webp"
+    },
+    "304": {
+        "Name": "Belobog of the Architects",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71015.webp",
+        "ImagePath": "../assets/relic_images/BelobogoftheArchitects.webp"
+    },
+    "305": {
+        "Name": "Celestial Differentiator",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71016.webp",
+        "ImagePath": "../assets/relic_images/CelestialDifferentiator.webp"
+    },
+    "306": {
+        "Name": "Inert Salsotto",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71017.webp",
+        "ImagePath": "../assets/relic_images/InertSalsotto.webp"
+    },
+    "307": {
+        "Name": "Talia: Kingdom of Banditry",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71018.webp",
+        "ImagePath": "../assets/relic_images/TaliaKingdomofBanditry.webp"
+    },
+    "308": {
+        "Name": "Sprightly Vonwacq",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71019.webp",
+        "ImagePath": "../assets/relic_images/SprightlyVonwacq.webp"
+    },
+    "309": {
+        "Name": "Rutilant Arena",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71022.webp",
+        "ImagePath": "../assets/relic_images/RutilantArena.webp"
+    },
+    "310": {
+        "Name": "Broken Keel",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71023.webp",
+        "ImagePath": "../assets/relic_images/BrokenKeel.webp"
+    },
+    "311": {
+        "Name": "Firmament Frontline: Glamoth",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71026.webp",
+        "ImagePath": "../assets/relic_images/FirmamentFrontlineGlamoth.webp"
+    },
+    "312": {
+        "Name": "Penacony, Land of the Dreams",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71027.webp",
+        "ImagePath": "../assets/relic_images/Penacony,LandoftheDreams.webp"
+    },
+    "313": {
+        "Name": "Sigonia, the Unclaimed Desolation",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71030.webp",
+        "ImagePath": "../assets/relic_images/Sigonia,theUnclaimedDesolation.webp"
+    },
+    "314": {
+        "Name": "Izumo Gensei and Takama Divine Realm",
+        "RelicType": "Planar Ornament",
+        "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71031.webp",
+        "ImagePath": "../assets/relic_images/IzumoGenseiandTakamaDivineRealm.webp"
+    }
+}
