@@ -1,5 +1,6 @@
 import type { ILCStatPage } from './LCStatPage';
 import { ITrace } from '.';
+import { IRelic } from '.';
 
 interface ICharStatPage {
   // character level
@@ -17,6 +18,9 @@ interface ICharStatPage {
 
   // light cone
   lightCone: ILCStatPage;
+
+  // relics
+  relics: IRelic[];
 }
 
 export type { ICharStatPage };

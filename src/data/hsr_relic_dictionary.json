@@ -3,192 +3,856 @@
         "Name": "Passerby of Wandering Cloud",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71000.webp",
-        "ImagePath": "../assets/relic_images/PasserbyofWanderingCloud.webp"
+        "ImagePath": "../assets/relic_images/PasserbyofWanderingCloud.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Passerby's Rejuvenated Wooden Hairstick",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_101_1.webp",
+                "ImagePath": "../assets/relic_images/PasserbyofWanderingCloudHead.webp"
+            },
+            "Hands": {
+                "Name": "Passerby's Roaming Dragon Bracer",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_101_2.webp",
+                "ImagePath": "../assets/relic_images/PasserbyofWanderingCloudHands.webp"
+            },
+            "Feet": {
+                "Name": "Passerby's Stygian Hiking Boots",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_101_4.webp",
+                "ImagePath": "../assets/relic_images/PasserbyofWanderingCloudFeet.webp"
+            },
+            "Body": {
+                "Name": "Passerby's Ragged Embroided Coat",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_101_3.webp",
+                "ImagePath": "../assets/relic_images/PasserbyofWanderingCloudBody.webp"
+            }
+        }
     },
     "102": {
         "Name": "Musketeer of Wild Wheat",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71001.webp",
-        "ImagePath": "../assets/relic_images/MusketeerofWildWheat.webp"
+        "ImagePath": "../assets/relic_images/MusketeerofWildWheat.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Musketeer's Wild Wheat Felt Hat",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_102_1.webp",
+                "ImagePath": "../assets/relic_images/MusketeerofWildWheatHead.webp"
+            },
+            "Hands": {
+                "Name": "Musketeer's Coarse Leather Gloves",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_102_2.webp",
+                "ImagePath": "../assets/relic_images/MusketeerofWildWheatHands.webp"
+            },
+            "Feet": {
+                "Name": "Musketeer's Rivets Riding Boots",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_102_4.webp",
+                "ImagePath": "../assets/relic_images/MusketeerofWildWheatFeet.webp"
+            },
+            "Body": {
+                "Name": "Musketeer's Wind-Hunting Shawl",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_102_3.webp",
+                "ImagePath": "../assets/relic_images/MusketeerofWildWheatBody.webp"
+            }
+        }
     },
     "103": {
         "Name": "Knight of Purity Palace",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71002.webp",
-        "ImagePath": "../assets/relic_images/KnightofPurityPalace.webp"
+        "ImagePath": "../assets/relic_images/KnightofPurityPalace.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Knight's Forgiving Casque",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_103_1.webp",
+                "ImagePath": "../assets/relic_images/KnightofPurityPalaceHead.webp"
+            },
+            "Hands": {
+                "Name": "Knight's Silent Oath Ring",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_103_2.webp",
+                "ImagePath": "../assets/relic_images/KnightofPurityPalaceHands.webp"
+            },
+            "Feet": {
+                "Name": "Knight's Iron Boots of Order",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_103_4.webp",
+                "ImagePath": "../assets/relic_images/KnightofPurityPalaceFeet.webp"
+            },
+            "Body": {
+                "Name": "Knight's Solemn Breastplate",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_103_3.webp",
+                "ImagePath": "../assets/relic_images/KnightofPurityPalaceBody.webp"
+            }
+        }
     },
     "104": {
         "Name": "Hunter of Glacial Forest",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71003.webp",
-        "ImagePath": "../assets/relic_images/HunterofGlacialForest.webp"
+        "ImagePath": "../assets/relic_images/HunterofGlacialForest.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Hunter's Artaius Hood",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_104_1.webp",
+                "ImagePath": "../assets/relic_images/HunterofGlacialForestHead.webp"
+            },
+            "Hands": {
+                "Name": "Hunter's Lizard Gloves",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_104_2.webp",
+                "ImagePath": "../assets/relic_images/HunterofGlacialForestHands.webp"
+            },
+            "Feet": {
+                "Name": "Hunter's Soft Elkskin Boots",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_104_4.webp",
+                "ImagePath": "../assets/relic_images/HunterofGlacialForestFeet.webp"
+            },
+            "Body": {
+                "Name": "Hunter's Ice Dragon Cloak",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_104_3.webp",
+                "ImagePath": "../assets/relic_images/HunterofGlacialForestBody.webp"
+            }
+        }
     },
     "105": {
         "Name": "Champion of Streetwise Boxing",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71004.webp",
-        "ImagePath": "../assets/relic_images/ChampionofStreetwiseBoxing.webp"
+        "ImagePath": "../assets/relic_images/ChampionofStreetwiseBoxing.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Champion's Headgear",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_105_1.webp",
+                "ImagePath": "../assets/relic_images/ChampionofStreetwiseBoxingHead.webp"
+            },
+            "Hands": {
+                "Name": "Champion's Heavy Gloves",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_105_2.webp",
+                "ImagePath": "../assets/relic_images/ChampionofStreetwiseBoxingHands.webp"
+            },
+            "Feet": {
+                "Name": "Champion's Fleetfoot Boots",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_105_4.webp",
+                "ImagePath": "../assets/relic_images/ChampionofStreetwiseBoxingFeet.webp"
+            },
+            "Body": {
+                "Name": "Champion's Chest Guard",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_105_3.webp",
+                "ImagePath": "../assets/relic_images/ChampionofStreetwiseBoxingBody.webp"
+            }
+        }
     },
     "106": {
         "Name": "Guard of Wuthering Snow",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71005.webp",
-        "ImagePath": "../assets/relic_images/GuardofWutheringSnow.webp"
+        "ImagePath": "../assets/relic_images/GuardofWutheringSnow.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Guard's Cast Iron Helmet",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_106_1.webp",
+                "ImagePath": "../assets/relic_images/GuardofWutheringSnowHead.webp"
+            },
+            "Hands": {
+                "Name": "Guard's Shining Gauntlets",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_106_2.webp",
+                "ImagePath": "../assets/relic_images/GuardofWutheringSnowHands.webp"
+            },
+            "Feet": {
+                "Name": "Guard's Silver Greaves",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_106_4.webp",
+                "ImagePath": "../assets/relic_images/GuardofWutheringSnowFeet.webp"
+            },
+            "Body": {
+                "Name": "Guard's Uniform of Old",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_106_3.webp",
+                "ImagePath": "../assets/relic_images/GuardofWutheringSnowBody.webp"
+            }
+        }
     },
     "107": {
         "Name": "Firesmith of Lava-Forging",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71006.webp",
-        "ImagePath": "../assets/relic_images/FiresmithofLava-Forging.webp"
+        "ImagePath": "../assets/relic_images/FiresmithofLava-Forging.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Firesmith's Obsidian Goggles",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_107_1.webp",
+                "ImagePath": "../assets/relic_images/FiresmithofLava-ForgingHead.webp"
+            },
+            "Hands": {
+                "Name": "Firesmith's Ring of Flame-Mastery",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_107_2.webp",
+                "ImagePath": "../assets/relic_images/FiresmithofLava-ForgingHands.webp"
+            },
+            "Feet": {
+                "Name": "Firesmith's Alloy Leg",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_107_4.webp",
+                "ImagePath": "../assets/relic_images/FiresmithofLava-ForgingFeet.webp"
+            },
+            "Body": {
+                "Name": "Firesmith's Fireproof Apron",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_107_3.webp",
+                "ImagePath": "../assets/relic_images/FiresmithofLava-ForgingBody.webp"
+            }
+        }
     },
     "108": {
         "Name": "Genius of Brilliant Stars",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71007.webp",
-        "ImagePath": "../assets/relic_images/GeniusofBrilliantStars.webp"
+        "ImagePath": "../assets/relic_images/GeniusofBrilliantStars.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Genius's Ultraremote Sensing Visor",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_108_1.webp",
+                "ImagePath": "../assets/relic_images/GeniusofBrilliantStarsHead.webp"
+            },
+            "Hands": {
+                "Name": "Genius's Frequency Catcher",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_108_2.webp",
+                "ImagePath": "../assets/relic_images/GeniusofBrilliantStarsHands.webp"
+            },
+            "Feet": {
+                "Name": "Genius's Gravity Walker",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_108_4.webp",
+                "ImagePath": "../assets/relic_images/GeniusofBrilliantStarsFeet.webp"
+            },
+            "Body": {
+                "Name": "Genius's Metafield Suit",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_108_3.webp",
+                "ImagePath": "../assets/relic_images/GeniusofBrilliantStarsBody.webp"
+            }
+        }
     },
     "109": {
         "Name": "Band of Sizzling Thunder",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71008.webp",
-        "ImagePath": "../assets/relic_images/BandofSizzlingThunder.webp"
+        "ImagePath": "../assets/relic_images/BandofSizzlingThunder.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Band's Polarized Sunglasses",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_109_1.webp",
+                "ImagePath": "../assets/relic_images/BandofSizzlingThunderHead.webp"
+            },
+            "Hands": {
+                "Name": "Band's Touring Bracelet",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_109_2.webp",
+                "ImagePath": "../assets/relic_images/BandofSizzlingThunderHands.webp"
+            },
+            "Feet": {
+                "Name": "Band's Ankle Boots With Rivets",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_109_4.webp",
+                "ImagePath": "../assets/relic_images/BandofSizzlingThunderFeet.webp"
+            },
+            "Body": {
+                "Name": "Band's Leather Jacket With Studs",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_109_3.webp",
+                "ImagePath": "../assets/relic_images/BandofSizzlingThunderBody.webp"
+            }
+        }
     },
     "110": {
         "Name": "Eagle of Twilight Line",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71009.webp",
-        "ImagePath": "../assets/relic_images/EagleofTwilightLine.webp"
+        "ImagePath": "../assets/relic_images/EagleofTwilightLine.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Eagle's Beaked Helmet",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_110_1.webp",
+                "ImagePath": "../assets/relic_images/EagleofTwilightLineHead.webp"
+            },
+            "Hands": {
+                "Name": "Eagle's Soaring Ring",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_110_2.webp",
+                "ImagePath": "../assets/relic_images/EagleofTwilightLineHands.webp"
+            },
+            "Feet": {
+                "Name": "Eagle's Quilted Puttees",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_110_4.webp",
+                "ImagePath": "../assets/relic_images/EagleofTwilightLineFeet.webp"
+            },
+            "Body": {
+                "Name": "Eagle's Winged Suit Harness",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_110_3.webp",
+                "ImagePath": "../assets/relic_images/EagleofTwilightLineBody.webp"
+            }
+        }
     },
     "111": {
         "Name": "Thief of Shooting Meteor",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71010.webp",
-        "ImagePath": "../assets/relic_images/ThiefofShootingMeteor.webp"
+        "ImagePath": "../assets/relic_images/ThiefofShootingMeteor.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Thief's Myriad-Faced Mask",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_111_1.webp",
+                "ImagePath": "../assets/relic_images/ThiefofShootingMeteorHead.webp"
+            },
+            "Hands": {
+                "Name": "Thief's Gloves With Prints",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_111_2.webp",
+                "ImagePath": "../assets/relic_images/ThiefofShootingMeteorHands.webp"
+            },
+            "Feet": {
+                "Name": "Thief's Meteor Boots",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_111_4.webp",
+                "ImagePath": "../assets/relic_images/ThiefofShootingMeteorFeet.webp"
+            },
+            "Body": {
+                "Name": "Thief's Steel Grappling Hook",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_111_3.webp",
+                "ImagePath": "../assets/relic_images/ThiefofShootingMeteorBody.webp"
+            }
+        }
     },
     "112": {
         "Name": "Wastelander of Banditry Desert",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71011.webp",
-        "ImagePath": "../assets/relic_images/WastelanderofBanditryDesert.webp"
+        "ImagePath": "../assets/relic_images/WastelanderofBanditryDesert.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Wastelander's Breathing Mask",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_112_1.webp",
+                "ImagePath": "../assets/relic_images/WastelanderofBanditryDesertHead.webp"
+            },
+            "Hands": {
+                "Name": "Wastelander's Desert Terminal",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_112_2.webp",
+                "ImagePath": "../assets/relic_images/WastelanderofBanditryDesertHands.webp"
+            },
+            "Feet": {
+                "Name": "Wastelander's Powered Greaves",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_112_4.webp",
+                "ImagePath": "../assets/relic_images/WastelanderofBanditryDesertFeet.webp"
+            },
+            "Body": {
+                "Name": "Wastelander's Friar Robe",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_112_3.webp",
+                "ImagePath": "../assets/relic_images/WastelanderofBanditryDesertBody.webp"
+            }
+        }
     },
     "113": {
         "Name": "Longevous Disciple",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71020.webp",
-        "ImagePath": "../assets/relic_images/LongevousDisciple.webp"
+        "ImagePath": "../assets/relic_images/LongevousDisciple.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Disciple's Prosthetic Eye",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_113_1.webp",
+                "ImagePath": "../assets/relic_images/LongevousDiscipleHead.webp"
+            },
+            "Hands": {
+                "Name": "Disciple's Ingenium Hand",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_113_2.webp",
+                "ImagePath": "../assets/relic_images/LongevousDiscipleHands.webp"
+            },
+            "Feet": {
+                "Name": "Disciple's Celestial Silk Sandals",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_113_4.webp",
+                "ImagePath": "../assets/relic_images/LongevousDiscipleFeet.webp"
+            },
+            "Body": {
+                "Name": "Disciple's Dewy Feather Garb",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_113_3.webp",
+                "ImagePath": "../assets/relic_images/LongevousDiscipleBody.webp"
+            }
+        }
     },
     "114": {
         "Name": "Messenger Traversing Hackerspace",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71021.webp",
-        "ImagePath": "../assets/relic_images/MessengerTraversingHackerspace.webp"
+        "ImagePath": "../assets/relic_images/MessengerTraversingHackerspace.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Messenger's Holovisor",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_114_1.webp",
+                "ImagePath": "../assets/relic_images/MessengerTraversingHackerspaceHead.webp"
+            },
+            "Hands": {
+                "Name": "Messenger's Transformative Arm",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_114_2.webp",
+                "ImagePath": "../assets/relic_images/MessengerTraversingHackerspaceHands.webp"
+            },
+            "Feet": {
+                "Name": "Messenger's Par-kool Sneakers",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_114_4.webp",
+                "ImagePath": "../assets/relic_images/MessengerTraversingHackerspaceFeet.webp"
+            },
+            "Body": {
+                "Name": "Messenger's Secret Satchel",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_114_3.webp",
+                "ImagePath": "../assets/relic_images/MessengerTraversingHackerspaceBody.webp"
+            }
+        }
     },
     "115": {
         "Name": "The Ashblazing Grand Duke",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71024.webp",
-        "ImagePath": "../assets/relic_images/TheAshblazingGrandDuke.webp"
+        "ImagePath": "../assets/relic_images/TheAshblazingGrandDuke.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Grand Duke's Crown of Netherflame",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_115_1.webp",
+                "ImagePath": "../assets/relic_images/TheAshblazingGrandDukeHead.webp"
+            },
+            "Hands": {
+                "Name": "Grand Duke's Gloves of Fieryfur",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_115_2.webp",
+                "ImagePath": "../assets/relic_images/TheAshblazingGrandDukeHands.webp"
+            },
+            "Feet": {
+                "Name": "Grand Duke's Ceremonial Boots",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_115_4.webp",
+                "ImagePath": "../assets/relic_images/TheAshblazingGrandDukeFeet.webp"
+            },
+            "Body": {
+                "Name": "Grand Duke's Robe of Grace",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_115_3.webp",
+                "ImagePath": "../assets/relic_images/TheAshblazingGrandDukeBody.webp"
+            }
+        }
     },
     "116": {
         "Name": "Prisoner in Deep Confinement",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71025.webp",
-        "ImagePath": "../assets/relic_images/PrisonerinDeepConfinement.webp"
+        "ImagePath": "../assets/relic_images/PrisonerinDeepConfinement.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Prisoner's Sealed Muzzle",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_116_1.webp",
+                "ImagePath": "../assets/relic_images/PrisonerinDeepConfinementHead.webp"
+            },
+            "Hands": {
+                "Name": "Prisoner's Leadstone Shackles",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_116_2.webp",
+                "ImagePath": "../assets/relic_images/PrisonerinDeepConfinementHands.webp"
+            },
+            "Feet": {
+                "Name": "Prisoner's Restrictive Fetters",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_116_4.webp",
+                "ImagePath": "../assets/relic_images/PrisonerinDeepConfinementFeet.webp"
+            },
+            "Body": {
+                "Name": "Prisoner's Repressive Straitjacket",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_116_3.webp",
+                "ImagePath": "../assets/relic_images/PrisonerinDeepConfinementBody.webp"
+            }
+        }
     },
     "117": {
         "Name": "Pioneer Diver of Dead Waters",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71028.webp",
-        "ImagePath": "../assets/relic_images/PioneerDiverofDeadWaters.webp"
+        "ImagePath": "../assets/relic_images/PioneerDiverofDeadWaters.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Pioneer's Heatproof Shell",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_117_1.webp",
+                "ImagePath": "../assets/relic_images/PioneerDiverofDeadWatersHead.webp"
+            },
+            "Hands": {
+                "Name": "Pioneer's Lacuna Compass",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_117_2.webp",
+                "ImagePath": "../assets/relic_images/PioneerDiverofDeadWatersHands.webp"
+            },
+            "Feet": {
+                "Name": "Pioneer's Starfaring Anchor",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_117_4.webp",
+                "ImagePath": "../assets/relic_images/PioneerDiverofDeadWatersFeet.webp"
+            },
+            "Body": {
+                "Name": "Pioneer's Sealed Lead Apron",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_117_3.webp",
+                "ImagePath": "../assets/relic_images/PioneerDiverofDeadWatersBody.webp"
+            }
+        }
     },
     "118": {
         "Name": "Watchmaker, Master of Dream Machinations",
         "RelicType": "Relic",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71029.webp",
-        "ImagePath": "../assets/relic_images/Watchmaker,MasterofDreamMachinations.webp"
+        "ImagePath": "../assets/relic_images/Watchmaker,MasterofDreamMachinations.webp",
+        "Pieces": {
+            "Head": {
+                "Name": "Watchmaker's Telescoping Lens",
+                "RelicType": "Head",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_118_1.webp",
+                "ImagePath": "../assets/relic_images/Watchmaker,MasterofDreamMachinationsHead.webp"
+            },
+            "Hands": {
+                "Name": "Watchmaker's Fortuitous Wristwatch",
+                "RelicType": "Hands",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_118_2.webp",
+                "ImagePath": "../assets/relic_images/Watchmaker,MasterofDreamMachinationsHands.webp"
+            },
+            "Feet": {
+                "Name": "Watchmaker's Dream-Concealing Dress Shoes",
+                "RelicType": "Feet",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_118_4.webp",
+                "ImagePath": "../assets/relic_images/Watchmaker,MasterofDreamMachinationsFeet.webp"
+            },
+            "Body": {
+                "Name": "Watchmaker's Illusory Formal Suit",
+                "RelicType": "Body",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_118_3.webp",
+                "ImagePath": "../assets/relic_images/Watchmaker,MasterofDreamMachinationsBody.webp"
+            }
+        }
     },
     "301": {
         "Name": "Space Sealing Station",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71012.webp",
-        "ImagePath": "../assets/relic_images/SpaceSealingStation.webp"
+        "ImagePath": "../assets/relic_images/SpaceSealingStation.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Herta's Wandering Trek",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_301_6.webp",
+                "ImagePath": "../assets/relic_images/SpaceSealingStation.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Herta's Space Station",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_301_5.webp",
+                "ImagePath": "../assets/relic_images/SpaceSealingStation.webpPlanarSphere.webp"
+            }
+        }
     },
     "302": {
         "Name": "Fleet of the Ageless",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71013.webp",
-        "ImagePath": "../assets/relic_images/FleetoftheAgeless.webp"
+        "ImagePath": "../assets/relic_images/FleetoftheAgeless.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "The Xianzhou Luofu's Ambrosial Arbor Vines",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_302_6.webp",
+                "ImagePath": "../assets/relic_images/FleetoftheAgeless.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "The Xianzhou Luofu's Celestial Ark",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_302_5.webp",
+                "ImagePath": "../assets/relic_images/FleetoftheAgeless.webpPlanarSphere.webp"
+            }
+        }
     },
     "303": {
         "Name": "Pan-Cosmic Commercial Enterprise",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71014.webp",
-        "ImagePath": "../assets/relic_images/Pan-CosmicCommercialEnterprise.webp"
+        "ImagePath": "../assets/relic_images/Pan-CosmicCommercialEnterprise.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "The IPC's Trade Route",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_303_6.webp",
+                "ImagePath": "../assets/relic_images/Pan-CosmicCommercialEnterprise.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "The IPC's Mega HQ",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_303_5.webp",
+                "ImagePath": "../assets/relic_images/Pan-CosmicCommercialEnterprise.webpPlanarSphere.webp"
+            }
+        }
     },
     "304": {
         "Name": "Belobog of the Architects",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71015.webp",
-        "ImagePath": "../assets/relic_images/BelobogoftheArchitects.webp"
+        "ImagePath": "../assets/relic_images/BelobogoftheArchitects.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Belobog's Iron Defense",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_304_6.webp",
+                "ImagePath": "../assets/relic_images/BelobogoftheArchitects.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Belobog's Fortress of Preservation",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_304_5.webp",
+                "ImagePath": "../assets/relic_images/BelobogoftheArchitects.webpPlanarSphere.webp"
+            }
+        }
     },
     "305": {
         "Name": "Celestial Differentiator",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71016.webp",
-        "ImagePath": "../assets/relic_images/CelestialDifferentiator.webp"
+        "ImagePath": "../assets/relic_images/CelestialDifferentiator.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Planet Screwllum's Ring System",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_305_6.webp",
+                "ImagePath": "../assets/relic_images/CelestialDifferentiator.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Planet Screwllum's Mechanical Sun",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_305_5.webp",
+                "ImagePath": "../assets/relic_images/CelestialDifferentiator.webpPlanarSphere.webp"
+            }
+        }
     },
     "306": {
         "Name": "Inert Salsotto",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71017.webp",
-        "ImagePath": "../assets/relic_images/InertSalsotto.webp"
+        "ImagePath": "../assets/relic_images/InertSalsotto.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Salsotto's Terminator Line",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_306_6.webp",
+                "ImagePath": "../assets/relic_images/InertSalsotto.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Salsotto's Moving City",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_306_5.webp",
+                "ImagePath": "../assets/relic_images/InertSalsotto.webpPlanarSphere.webp"
+            }
+        }
     },
     "307": {
         "Name": "Talia: Kingdom of Banditry",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71018.webp",
-        "ImagePath": "../assets/relic_images/TaliaKingdomofBanditry.webp"
+        "ImagePath": "../assets/relic_images/TaliaKingdomofBanditry.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Talia's Exposed Electric Wire",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_307_6.webp",
+                "ImagePath": "../assets/relic_images/TaliaKingdomofBanditry.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Talia's Nailscrap Town",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_307_5.webp",
+                "ImagePath": "../assets/relic_images/TaliaKingdomofBanditry.webpPlanarSphere.webp"
+            }
+        }
     },
     "308": {
         "Name": "Sprightly Vonwacq",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71019.webp",
-        "ImagePath": "../assets/relic_images/SprightlyVonwacq.webp"
+        "ImagePath": "../assets/relic_images/SprightlyVonwacq.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Vonwacq's Islandic Coast",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_308_6.webp",
+                "ImagePath": "../assets/relic_images/SprightlyVonwacq.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Vonwacq's Island of Birth",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_308_5.webp",
+                "ImagePath": "../assets/relic_images/SprightlyVonwacq.webpPlanarSphere.webp"
+            }
+        }
     },
     "309": {
         "Name": "Rutilant Arena",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71022.webp",
-        "ImagePath": "../assets/relic_images/RutilantArena.webp"
+        "ImagePath": "../assets/relic_images/RutilantArena.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Taikiyan's Arclight Race Track",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_309_6.webp",
+                "ImagePath": "../assets/relic_images/RutilantArena.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Taikiyan Laser Stadium",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_309_5.webp",
+                "ImagePath": "../assets/relic_images/RutilantArena.webpPlanarSphere.webp"
+            }
+        }
     },
     "310": {
         "Name": "Broken Keel",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71023.webp",
-        "ImagePath": "../assets/relic_images/BrokenKeel.webp"
+        "ImagePath": "../assets/relic_images/BrokenKeel.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Insumousu's Frayed Hawser",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_310_6.webp",
+                "ImagePath": "../assets/relic_images/BrokenKeel.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Insumousu's Whalefall Ship",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_310_5.webp",
+                "ImagePath": "../assets/relic_images/BrokenKeel.webpPlanarSphere.webp"
+            }
+        }
     },
     "311": {
         "Name": "Firmament Frontline: Glamoth",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71026.webp",
-        "ImagePath": "../assets/relic_images/FirmamentFrontlineGlamoth.webp"
+        "ImagePath": "../assets/relic_images/FirmamentFrontlineGlamoth.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Glamoth's Silent Tombstone",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_311_6.webp",
+                "ImagePath": "../assets/relic_images/FirmamentFrontlineGlamoth.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Glamoth's Iron Cavalry Regiment",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_311_5.webp",
+                "ImagePath": "../assets/relic_images/FirmamentFrontlineGlamoth.webpPlanarSphere.webp"
+            }
+        }
     },
     "312": {
         "Name": "Penacony, Land of the Dreams",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71027.webp",
-        "ImagePath": "../assets/relic_images/Penacony,LandoftheDreams.webp"
+        "ImagePath": "../assets/relic_images/Penacony,LandoftheDreams.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Penacony's Dream-Seeking Tracks",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_312_6.webp",
+                "ImagePath": "../assets/relic_images/Penacony,LandoftheDreams.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Penacony's Grand Hotel",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_312_5.webp",
+                "ImagePath": "../assets/relic_images/Penacony,LandoftheDreams.webpPlanarSphere.webp"
+            }
+        }
     },
     "313": {
         "Name": "Sigonia, the Unclaimed Desolation",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71030.webp",
-        "ImagePath": "../assets/relic_images/Sigonia,theUnclaimedDesolation.webp"
+        "ImagePath": "../assets/relic_images/Sigonia,theUnclaimedDesolation.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Sigonia's Knot of Cyclicality",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_313_6.webp",
+                "ImagePath": "../assets/relic_images/Sigonia,theUnclaimedDesolation.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Recliner of the Sigonian Mother-Goddess",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_313_5.webp",
+                "ImagePath": "../assets/relic_images/Sigonia,theUnclaimedDesolation.webpPlanarSphere.webp"
+            }
+        }
     },
     "314": {
         "Name": "Izumo Gensei and Takama Divine Realm",
         "RelicType": "Planar Ornament",
         "ImageLink": "https://api.hakush.in/hsr/UI/itemfigures/71031.webp",
-        "ImagePath": "../assets/relic_images/IzumoGenseiandTakamaDivineRealm.webp"
+        "ImagePath": "../assets/relic_images/IzumoGenseiandTakamaDivineRealm.webp",
+        "Pieces": {
+            "LinkRope": {
+                "Name": "Izumo, Blades of End and Beginning",
+                "RelicType": "LinkRope",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_314_6.webp",
+                "ImagePath": "../assets/relic_images/IzumoGenseiandTakamaDivineRealm.webpLinkRope.webp"
+            },
+            "PlanarSphere": {
+                "Name": "Izumo, Gods of Innumerable Misery",
+                "RelicType": "PlanarSphere",
+                "ImageLink": "https://api.hakush.in/hsr/UI/relicfigures/IconRelic_314_5.webp",
+                "ImagePath": "../assets/relic_images/IzumoGenseiandTakamaDivineRealm.webpPlanarSphere.webp"
+            }
+        }
     }
 }

@@ -5,3 +5,4 @@ export * from './Path';
 export * from './PlayableCharacterName';
 export * from './ScalingStat';
 export * from './Event';
+export * from './RelicType';
