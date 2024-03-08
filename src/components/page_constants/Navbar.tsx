@@ -38,7 +38,7 @@ const Navbar = () => {
         :
         /* mobile display */
         <div>
-          <div className='bg-off-white z-50 relative'>
+          <div className='bg-off-white z-[100] relative'>
             <div className='flex flex-row text-lg font-semibold justify-between'>
               <div className='p-4 hover:bg-slate-200 mr-1'>
                 <p className=''>Star Rail Simulator</p>
@@ -56,7 +56,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className='relative'>
-            <div className={`absolute top-full transition ease-in-out duration-300 ${showDropdown ? 'translate-y-0' : '-translate-y-full'}`}>
+            <div className={`absolute top-full transition ease-in-out duration-300 z-50 ${showDropdown ? 'translate-y-0' : '-translate-y-full'}`}>
               <div className='bg-offer-white w-[100vw]'>
                 <ul className='font-semibold'>
                   <li className='p-4 hover:bg-slate-200'>Teams Database</li>
