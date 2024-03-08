@@ -13,7 +13,7 @@ export enum ScalingStat {
   healingBoost = 'Healing Boost',
   breakEffect = 'Break Effect',
   energyRegen = 'Energy Regen%',
-  physDamage = 'Physical DMG%',
+  physicalDamage = 'Physical DMG%',
   fireDamage = 'Fire DMG%',
   iceDamage = 'Ice DMG%',
   windDamage = 'Wind DMG%',
