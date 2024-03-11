@@ -137,11 +137,19 @@ const Simulator = () => {
     setIsSearchModeActive(true);
   }
 
+  useEffect(() => { // focuses input when search mode appears
+    if (isSearchModeActive) {
+      searchRefInput.current?.focus();
+    }
+  }, [isSearchModeActive])
+
   const handleCloseSearchMode = () => {
+    setSearchQuery('');
     setIsSearchModeActive(false);
   }
 
-  const searchRef = useRef<HTMLDivElement>(null);
+  const searchRefInput = useRef<HTMLInputElement>(null);
+  const searchRefDiv = useRef<HTMLDivElement>(null);
 
   // add characters to the list
   const handleAddCharacter = (charName: string) => {
@@ -156,10 +164,17 @@ const Simulator = () => {
 
       const charIDs: string[] = activeCharacterList.map((char) => char.characterID);
       const charID: string = getCharIDFromString(charName);
+
+      // actually adding the character here
       if (!charIDs.includes(charID)) {
+        if (activeCharacterList.length !== 3) {
+          searchRefInput.current?.focus();
+        } else {
+          handleCloseSearchMode();
+        }
+        setSearchQuery('');
         const newChar = new CharTemplate(charID);
         setActiveCharacterList([...activeCharacterList, newChar]);
-        console.log(newChar);
       }
     }
   }
@@ -168,10 +183,10 @@ const Simulator = () => {
     setActiveCharacterList(activeCharacterList.filter((filterChar) => filterChar !== char));
   }
 
+  // handle closing search menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
-      if(searchRef.current && !searchRef.current.contains(event.target as Node)) {
-        setSearchQuery('');
+      if(searchRefInput.current && !searchRefInput.current.contains(event.target as Node) && !searchRefDiv.current?.contains(event.target as Node)) {
         handleCloseSearchMode();
       }
     }
@@ -180,7 +195,7 @@ const Simulator = () => {
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [searchRef]);
+  }, [searchRefInput, searchRefDiv]);
 
   // relics debug
   useEffect(() => {
@@ -217,9 +232,10 @@ const Simulator = () => {
       </div>
       {isSearchModeActive &&
         <div className='fixed top-0 bottom-0 left-0 right-0 bg-slate-800 bg-opacity-50 z-[500]'>
-          <div className='absolute top-[18vh] w-[100vw]' ref={searchRef}> { /* character selection */ }
+          <div className='absolute top-[18vh] w-[100vw]'> { /* character selection */ }
             <div className='flex flex-row justify-center'>
               <input 
+                ref={searchRefInput}
                 type='text'
                 placeholder='Search for a character...'
                 value={searchQuery}
@@ -228,7 +244,7 @@ const Simulator = () => {
               />
             </div>
             {Object.keys(searchFilteredCharacters).length > 0 &&
-              <div className={`grid bg-slate-600 gap-4 p-4 mt-5 mx-5 ${width > 1000 ? 'grid-cols-10' : 'grid-cols-5'}`}>
+              <div className={`grid bg-slate-600 gap-4 p-4 mt-5 mx-5 ${width > 1000 ? 'grid-cols-10' : 'grid-cols-5'}`} ref={searchRefDiv}>
                 {Object.entries(searchFilteredCharacters).map(([id, character]) => (
                   <div 
                     key={id} 
