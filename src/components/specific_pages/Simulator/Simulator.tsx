@@ -183,6 +183,18 @@ const Simulator = () => {
     setActiveCharacterList(activeCharacterList.filter((filterChar) => filterChar !== char));
   }
 
+  const handleEditCharacter = (char: CharTemplate) => {
+    // find the character we're trying to edit
+    const newActiveCharacterList = activeCharacterList.map(activeCharacter => {
+      if (activeCharacter.characterName === char.characterName) {
+        return char;
+      } else {
+        return activeCharacter
+      }
+    });
+    setActiveCharacterList(newActiveCharacterList);
+  }
+
   // handle closing search menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -216,6 +228,7 @@ const Simulator = () => {
               lcDictionary={lcDictionary} 
               characterDictionary={characterDictionary}
               handleRemoveCharacter={() => handleRemoveCharacter(char)}
+              handleEditCharacter={() => handleEditCharacter(char)}
             />
           ))}
           {activeCharacterList.length < 4 &&
