@@ -3,7 +3,7 @@
         {
             "id": "B1",
             "traceLevel": "major",
-            "effect": "When Rainblade from Acheron's Ultimate hits enemy targets with Crimson Knot, her DMG increases by 30%, staking up to a maximum of 3 stack(s) and lasting for 3 turn(s). Also additionally deals 6 hits of DMG when Stygian Resurge is triggered. Every hit deals Lightning DMG equal to 25% of Acheron's ATK to a single enemy target and is viewed as Ultimate DMG.",
+            "effect": "When the Rainblade from Acheron's Ultimate hits enemy targets with Crimson Knot, her DMG increases by 30%, stacking up to 3 time(s) and lasting for 3 turn(s). And when Stygian Resurge triggers, additionally deals DMG for 6 times. Each time deals Lightning DMG equal to 25% of Acheron's ATK to a single random enemy and is viewed as part of the Ultimate DMG.",
             "unlockRequirement": "Ascension 6",
             "nextObjects": [
                 {
@@ -25,7 +25,7 @@
         {
             "id": "C1",
             "traceLevel": "major",
-            "effect": "When there are 1/2 other character(s) following the Path of Nihility in the team, increase the DMG of Acheron's Basic ATK, Skill, and Ultimate to 115%/160% of the original DMG.",
+            "effect": "When there are 1 or 2 Nihility characters other than Acheron in the team, the DMG dealt by Acheron's Basic ATK, Skill, and Ultimate increases to 115% or 160% of the original DMG respectively.",
             "unlockRequirement": "Ascension 4",
             "nextObjects": [
                 {
@@ -58,7 +58,7 @@
         {
             "id": "E1",
             "traceLevel": "major",
-            "effect": "At the start of battle, immediately gain 5 point(s) of Slashed Dream and apply 5 stack(s) of Crimson Knot to a random enemy.",
+            "effect": "When battle starts, immediately gains 5 point(s) of Slashed Dream and applies 5 stack(s) of Crimson Knot to a random enemy. When Slashed Dream reaches its upper limit, for every point of Slashed Dream that exceeds the limit, gains 1 stack of Quadrivalent Ascendance. Increases the maximum stackable count for Quadrivalent Ascendance to 3.",
             "unlockRequirement": "Ascension 2",
             "nextObjects": [
                 {
@@ -96,29 +96,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "CRIT DMG",
-                    "scalingValue": 5.3,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "ATK",
-                            "scalingValue": 4.0,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Lightning DMG",
-                                    "scalingValue": 3.2,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "ATK",
+                    "scalingValue": 8.0,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -220,29 +202,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "Wind DMG",
-                    "scalingValue": 3.2,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "ATK",
-                            "scalingValue": 4.0,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Effect Hit Rate",
-                                    "scalingValue": 4.0,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "ATK",
+                    "scalingValue": 8.0,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -459,7 +423,7 @@
         {
             "id": "B1",
             "traceLevel": "major",
-            "effect": "Aventurine accumulates 1 Blind Bet after an ally with Fortified Wager launches a follow-up attack. This effect can be triggered a maximum of 1 time(s). This effect's trigger count is reset at the start of Aventurine's turn. After Aventurine launches a follow-up attack from his Talent, provides Fortified Wager to all allies and blocks DMG equal to 7% of Aventurine's DEF + 96 DMG, and additionally provides Fortified Wager that can block DMG equal to 7% of Aventurine's DEF + 96 DMG to the ally with the lowest current Shield effect, lasting for 3 turns.",
+            "effect": "After an ally with Fortified Wager launches a follow-up attack, Aventurine accumulates 1 Blind Bet point. This effect can trigger up to 3 time(s). And its trigger count resets at the start of Aventurine's turn. After Aventurine launches his Talent's follow-up attack, provides all allies with a Fortified Wager that can block DMG equal to 7% of Aventurine's DEF plus 96, and additionally grants a Fortified Wager that can block DMG equal to 7% of Aventurine's DEF plus 96 to the ally with the lowest Shield effect, lasting for 3 turns.",
             "unlockRequirement": "Ascension 6",
             "nextObjects": [
                 {
@@ -511,7 +475,7 @@
                 {
                     "id": "D2",
                     "traceLevel": "major",
-                    "effect": "At the start of the battle, provide a Fortified Wager Shield to the entire team. The Shield effect equals to 100% as that provided by the Skill, lasting for 3 turn(s).",
+                    "effect": "When battle starts, grants all allies a Fortified Wager shield, whose Shield effect is equal to 100% of the one provided by the Skill, lasting for 3 turn(s).",
                     "unlockRequirement": "Ascension 4",
                     "nextObjects": [
                         {
@@ -535,7 +499,7 @@
                 {
                     "id": "D5",
                     "traceLevel": "major",
-                    "effect": "If Aventurine's DEF is higher than 1600, then his own CRIT Rate increases by 2% for every 100 DEF exceeding that value, up to an increase of 40%.",
+                    "effect": "For every 100 of Aventurine's DEF that exceeds 1600, increases his own CRIT Rate by 2%, up to a maximum increase of 48%.",
                     "unlockRequirement": "Ascension 2",
                     "nextObjects": [
                         {
@@ -2318,29 +2282,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "Effect Hit Rate",
-                    "scalingValue": 4.0,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "ATK",
-                            "scalingValue": 4.0,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Quantum DMG",
-                                    "scalingValue": 3.2,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "ATK",
+                    "scalingValue": 8.0,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -2442,29 +2388,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "Effect Hit Rate",
-                    "scalingValue": 4.0,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "ATK",
-                            "scalingValue": 4.0,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Max HP",
-                                    "scalingValue": 4.0,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "ATK",
+                    "scalingValue": 8.0,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -2566,29 +2494,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "Imaginary DMG",
-                    "scalingValue": 3.2,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "ATK",
-                            "scalingValue": 4.0,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Effect RES",
-                                    "scalingValue": 4.0,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "ATK",
+                    "scalingValue": 8.0,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -3223,21 +3133,21 @@
         {
             "id": "B1",
             "traceLevel": "major",
-            "effect": "When Gallagher uses Nectar Blitz to attack enemies that are in the Besotted state, the HP Restore effect of his Talent for this attack will apply to other allies as well.",
+            "effect": "When Gallagher uses Nectar Blitz to attack Besotted enemies, the HP Restore effect of his Talent will also apply to other allies for this time.",
             "unlockRequirement": "Ascension 6",
             "nextObjects": [
                 {
                     "id": "B2",
                     "traceLevel": "minor",
-                    "scalingStat": "Effect RES",
+                    "scalingStat": "Max HP",
                     "scalingValue": 6.0,
                     "unlockRequirement": "Ascension 6"
                 },
                 {
                     "id": "B3",
                     "traceLevel": "minor",
-                    "scalingStat": "Break Effect",
-                    "scalingValue": 10.7,
+                    "scalingStat": "Effect RES",
+                    "scalingValue": 8.0,
                     "unlockRequirement": "Lv. 75"
                 }
             ]
@@ -3245,34 +3155,34 @@
         {
             "id": "D1",
             "traceLevel": "minor",
-            "scalingStat": "Break Effect",
-            "scalingValue": 5.3,
+            "scalingStat": "Effect RES",
+            "scalingValue": 4.0,
             "unlockRequirement": "Lv. 1"
         },
         {
             "id": "D3",
             "traceLevel": "major",
-            "effect": "Increases Outgoing Healing of this unit by an amount equal to 30% of Break Effect, up to a maximum Outgoing Healing increase of 75%.",
+            "effect": "Increases this unit's Outgoing Healing by an amount equal to 50% of Break Effect, up to a maximum Outgoing Healing increase of 75%.",
             "unlockRequirement": "Ascension 2",
             "nextObjects": [
                 {
                     "id": "D4",
                     "traceLevel": "minor",
-                    "scalingStat": "Max HP",
-                    "scalingValue": 4.0,
+                    "scalingStat": "Break Effect",
+                    "scalingValue": 5.3,
                     "unlockRequirement": "Ascension 2",
                     "nextObjects": [
                         {
                             "id": "D5",
                             "traceLevel": "minor",
-                            "scalingStat": "Break Effect",
-                            "scalingValue": 5.3,
+                            "scalingStat": "Effect RES",
+                            "scalingValue": 4.0,
                             "unlockRequirement": "Ascension 3",
                             "nextObjects": [
                                 {
                                     "id": "D6",
                                     "traceLevel": "minor",
-                                    "scalingStat": "Effect RES",
+                                    "scalingStat": "Max HP",
                                     "scalingValue": 4.0,
                                     "unlockRequirement": "Ascension 3"
                                 }
@@ -3285,28 +3195,28 @@
         {
             "id": "D7",
             "traceLevel": "major",
-            "effect": "Immediately advance this unit's Action Forward by 100% after they use their Ultimate.",
+            "effect": "After using the Ultimate, immediately Advances Forward this unit's Action by 100%.",
             "unlockRequirement": "Ascension 4",
             "nextObjects": [
                 {
                     "id": "D8",
                     "traceLevel": "minor",
-                    "scalingStat": "Break Effect",
-                    "scalingValue": 8.0,
+                    "scalingStat": "Effect RES",
+                    "scalingValue": 6.0,
                     "unlockRequirement": "Ascension 4",
                     "nextObjects": [
                         {
                             "id": "D9",
                             "traceLevel": "minor",
-                            "scalingStat": "Max HP",
-                            "scalingValue": 6.0,
+                            "scalingStat": "Break Effect",
+                            "scalingValue": 8.0,
                             "unlockRequirement": "Ascension 5",
                             "nextObjects": [
                                 {
                                     "id": "D10",
                                     "traceLevel": "minor",
-                                    "scalingStat": "Break Effect",
-                                    "scalingValue": 8.0,
+                                    "scalingStat": "Effect RES",
+                                    "scalingValue": 6.0,
                                     "unlockRequirement": "Ascension 5"
                                 }
                             ]
@@ -3318,7 +3228,7 @@
         {
             "id": "D2",
             "traceLevel": "minor",
-            "scalingStat": "Effect RES",
+            "scalingStat": "Max HP",
             "scalingValue": 8.0,
             "unlockRequirement": "Lv. 80"
         }
@@ -3632,29 +3542,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "Break Effect",
-                    "scalingValue": 5.3,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "Fire DMG",
-                            "scalingValue": 3.2,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Effect Hit Rate",
-                                    "scalingValue": 4.0,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "Fire DMG",
+                    "scalingValue": 6.4,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -4170,29 +4062,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "Effect Hit Rate",
-                    "scalingValue": 4.0,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "ATK",
-                            "scalingValue": 4.0,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "DEF",
-                                    "scalingValue": 5.0,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "ATK",
+                    "scalingValue": 8.0,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -4504,29 +4378,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "Effect Hit Rate",
-                    "scalingValue": 4.0,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "ATK",
-                            "scalingValue": 4.0,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Effect RES",
-                                    "scalingValue": 4.0,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "ATK",
+                    "scalingValue": 8.0,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }
@@ -4628,29 +4484,11 @@
             "unlockRequirement": "Lv. 1",
             "nextObjects": [
                 {
-                    "id": "E2",
+                    "id": "D2",
                     "traceLevel": "minor",
-                    "scalingStat": "ATK",
-                    "scalingValue": 4.0,
-                    "unlockRequirement": "Ascension 2",
-                    "nextObjects": [
-                        {
-                            "id": "E3",
-                            "traceLevel": "minor",
-                            "scalingStat": "Ice DMG",
-                            "scalingValue": 3.2,
-                            "unlockRequirement": "Ascension 3",
-                            "nextObjects": [
-                                {
-                                    "id": "E4",
-                                    "traceLevel": "minor",
-                                    "scalingStat": "Effect Hit Rate",
-                                    "scalingValue": 4.0,
-                                    "unlockRequirement": "Ascension 3"
-                                }
-                            ]
-                        }
-                    ]
+                    "scalingStat": "Ice DMG",
+                    "scalingValue": 6.4,
+                    "unlockRequirement": "Lv. 80"
                 }
             ]
         }

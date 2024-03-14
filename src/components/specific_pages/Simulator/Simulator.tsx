@@ -77,7 +77,7 @@ interface LCJSON {
 type charRelicsKey = 'head' | 'hands' | 'feet' | 'body' | 'orb' | 'rope';
 
 const Simulator = () => {
-  const { width, height } = useWindowDimensions(); // window width and height
+  const { width } = useWindowDimensions(); // window width and height
 
   const [activeCharacterList, setActiveCharacterList] = useState<CharTemplate[]>([]); // characters which the user has selected
   const [characterDictionary, setCharacterDictionary] = useState<CharacterDictionary>({}); // maps ids to basic info (name and picture)
@@ -209,12 +209,10 @@ const Simulator = () => {
     };
   }, [searchRefInput, searchRefDiv]);
 
-  // relics debug
-  useEffect(() => {
-    activeCharacterList.forEach((char) => {
-      console.log(char.getRelicDict());
-    })
-  }, [activeCharacterList]);
+  // debug
+  /*useEffect(() => {
+    console.log(activeCharacterList);
+  }, [activeCharacterList]);*/
 
   return (
     <div className='relative'>
@@ -223,13 +221,15 @@ const Simulator = () => {
         <h1 className='text-center text-white text-2xl font-bold mt-5 mb-2'>Active Characters</h1>
         <div className={`grid gap-5 ${width > 1000 ? 'mx-[2vw] grid-cols-4' : 'mx-0 grid-cols-2'}`}>
           {activeCharacterList && activeCharacterList.map((char) => (
-            <SimulatorCharacterDisplay 
-              char={char} 
-              lcDictionary={lcDictionary} 
-              characterDictionary={characterDictionary}
-              handleRemoveCharacter={() => handleRemoveCharacter(char)}
-              handleEditCharacter={() => handleEditCharacter(char)}
-            />
+            <div key={char.characterID}>
+              <SimulatorCharacterDisplay 
+                char={char} 
+                lcDictionary={lcDictionary} 
+                characterDictionary={characterDictionary}
+                handleRemoveCharacter={() => handleRemoveCharacter(char)}
+                handleEditCharacter={() => handleEditCharacter(char)}
+              />
+            </div>
           ))}
           {activeCharacterList.length < 4 &&
             <div 
@@ -244,7 +244,7 @@ const Simulator = () => {
         </div>
       </div>
       {isSearchModeActive &&
-        <div className='fixed top-0 bottom-0 left-0 right-0 bg-slate-800 bg-opacity-50 z-[500]'>
+        <div className='fixed top-0 bottom-0 left-0 right-0 bg-slate-800 bg-opacity-50 z-[500] overflow-y-auto overflow-x-hidden'>
           <div className='absolute top-[18vh] w-[100vw]'> { /* character selection */ }
             <div className='flex flex-row justify-center'>
               <input 

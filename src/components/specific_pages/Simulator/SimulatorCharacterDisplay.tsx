@@ -1,6 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import CharTemplate from "../../../general_logic/characters/CharTemplate";
-import type { LCDictionary, CharacterDictionary, charRelicsKey } from "./Simulator";
+import TraceObject from "./TraceObject";
+import type { LCDictionary, CharacterDictionary } from "./Simulator";
+import { ITrace } from "../../../general_logic/stat_logic";
 
 interface ExpectedProps {
   char: CharTemplate;
@@ -18,6 +20,63 @@ const SimulatorCharacterDisplay: React.FC<ExpectedProps> = ({
   handleEditCharacter
 }) => {
   const [showEditScreen, setShowEditScreen] = useState(false);
+  const [currentEditScreen, setCurrentEditScreen] = useState('Traces');
+  const editScreenOptions = ['Traces', 'Light Cone', 'Character Stats'];
+
+  const handleEditTrace = (updatedTrace: ITrace) => {
+    /**
+     * recursively finds new traces to update
+     * @param traces the old dict of traces which we're updating
+     */
+    const recursivelyUpdateTraces = (oldTraces: ITrace[], newTrace: ITrace): ITrace[] => {
+      // check top level
+      return (oldTraces.map((oldTrace) => {
+        if (oldTrace.id === newTrace.id) {
+          return newTrace;
+        } else if (oldTrace.nextObjects && oldTrace.nextObjects.length > 0) {
+          return {
+            ...oldTrace, 
+            nextObjects: recursivelyUpdateTraces(oldTrace.nextObjects, newTrace)
+          };
+        } else {
+          return oldTrace;
+        }
+      }));
+    }
+
+    const newTraces = recursivelyUpdateTraces(char.traces, updatedTrace);
+    char.setTraces(newTraces);
+    handleEditCharacter(char);
+  }
+
+  // renders diff components based on currentEditScreen
+  const renderEditScreen = (): JSX.Element => {
+    switch(currentEditScreen) {
+      case 'Traces':
+        return (
+          <>
+            <div className='columns-2 mx-4 mb-4'>
+              {char.traces.sort((a, b) => (
+                parseInt(a.unlockRequirement.charAt(a.unlockRequirement.length-1)) - parseInt(b.unlockRequirement.charAt(b.unlockRequirement.length-1))
+              )).map((trace) => (
+                <div className='break-inside-avoid mb-4 bg-dark-teal rounded-2xl' key={trace.id}>
+                  <TraceObject 
+                    trace={trace}
+                    handleEditTrace={handleEditTrace}
+                  />
+                </div>
+              ))}
+            </div>
+          </>
+        )
+      default:
+        return <></>
+    }
+  }
+
+  const handleChangeEditScreen = (newScreen: string) => {
+    setCurrentEditScreen(newScreen);
+  }
 
   const handleRelicDropdownClick = () => {
     setShowEditScreen(!showEditScreen);
@@ -91,12 +150,27 @@ const SimulatorCharacterDisplay: React.FC<ExpectedProps> = ({
       
       { /* Show Edit */ }
       {showEditScreen &&
-        <div className='fixed top-0 bottom-0 left-0 right-0 bg-slate-800 bg-opacity-50 z-[500]'>
+        <div className='fixed top-0 bottom-0 left-0 right-0 bg-slate-800 bg-opacity-50 z-[500] overflow-y-scroll'>
           <div className='absolute top-[10vh] right-[50%] translate-x-[50%] bg-zinc-400 w-[80vw] rounded' ref={editDivRef}>
-            <h1 className='text-center text-2xl font-semibold my-4'>{char.characterName}</h1>
-            <div className='grid grid-cols-4'>
+            <div className=''>
+              <div>
+                <ul className='flex flex-row'>
+                  {editScreenOptions.map((option) => {
+                    if (option === currentEditScreen) {
+                      return <li 
+                        className='px-2 py-3 mx-2 text-midnight-green underline underline-offset-4 hover:cursor-pointer'
+                      >{option}</li>
+                    } else {
+                      return <li 
+                        className='px-2 py-3 mx-2 hover:text-midnight-green hover:underline hover:underline-offset-4 hover:cursor-pointer'
+                        onClick={() => handleChangeEditScreen(option)}
+                      >{option}</li>
+                    }
+                  })}
+                </ul>
+              </div>
               <div className=''>
-                <h2 className='text-xl text-center font-semibold'>Traces</h2>
+                {renderEditScreen()}
               </div>
             </div>
           </div>
@@ -107,39 +181,3 @@ const SimulatorCharacterDisplay: React.FC<ExpectedProps> = ({
 }
 
 export default SimulatorCharacterDisplay;
-
-/**
- * <div className={`bg-slate-800 w-[100%] rounded-b-md absolute top-full transition ease-in-out duration-300 z-10 ${showRelicDropdown ? 'translate-y-0' : '-translate-y-full'}`}> 
-        <h2 className='font-semibold text-center text-white text-lg py-2'>Relic Loadout</h2>
-        <div className='grid grid-cols-3 gap-2 px-3 pb-4'>
-          {Object.keys(char.getRelicDict()).map(relicKey => {
-            const currentRelic = char.getRelicDict()[relicKey as charRelicsKey];
-            let currentRelicType = currentRelic.RelicType;
-            if (currentRelicType === 'PlanarSphere') {
-              currentRelicType = 'Planar Sphere';
-            } else if (currentRelicType === 'LinkRope') {
-              currentRelicType = 'Link Rope';
-            }
-            return (
-              <div key={relicKey} className='z-0'>
-                <div className='flex flex-col justify-center items-center'>
-                  <h3 className='text-off-white font-semibold underline underline-offset-2'>{currentRelicType}</h3>
-                  <div className='grid grid-cols-2'>
-                    <div className='relative'>
-                      <div className='absolute bg-teal bottom-0 right-0 text-sm rounded-tl-md rounded-br-md px-1'>
-                        <p>Lv{currentRelic.RelicLevel}</p>
-                      </div>
-                      <img
-                        className='w-[75px]'
-                        src={currentRelic.RelicImageLink}
-                      />
-                    </div>
-                    <p className='w-[100%] text-white text-sm ml-[3px]'>{currentRelic.RelicStat}</p>
-                  </div>
-                </div>
-              </div>
-            )
-          })}
-        </div>
-      </div>
- */

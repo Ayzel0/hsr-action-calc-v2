@@ -84,7 +84,14 @@ class CharTemplate implements ICharStatPage {
     public ultLevel: number = defaultCharStats['defaultUltLevel'],
     public talentLevel: number = defaultCharStats['defaultTalentLevel'],
   ) { 
-    // function to handle trace unlocks
+    /**
+     * TRACES
+     */
+
+    /**
+     * unlocks all traces recursively
+     * @param trace "base trace" for which we recurse through nextObjects through
+     */
     const processTrace = (trace: ITrace) => {
       // add unlocked to the current trace
       trace['unlocked'] = true;
@@ -99,6 +106,7 @@ class CharTemplate implements ICharStatPage {
     let charTraces = typedTraceData[characterID];
     charTraces.forEach(processTrace);
     this.traces = charTraces;
+    console.log(this.traces);
 
     // allow lookups
     const typedCharData = charData as CharDataJSON;
@@ -159,7 +167,10 @@ class CharTemplate implements ICharStatPage {
     this.relics = relicArray;
   };
 
-  // gets all relics, their names, and image links/paths
+  /**
+   * getter function for all relics
+   * @returns dictionary with all relics
+   */
   getRelicDict(): GetRelicDictReturn {
     return ({
       'head': this.relics[0].getBasicData(),
@@ -170,6 +181,15 @@ class CharTemplate implements ICharStatPage {
       'rope': this.relics[5].getBasicData()
     });
   };
+
+  /**
+   * edits the character traces
+   * @param newTraces new traces for the character
+   * @returns void
+   */
+  setTraces(newTraces: ITrace[]): void {
+    this.traces = newTraces;
+  }
 }
 
 export default CharTemplate;
