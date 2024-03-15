@@ -76,7 +76,7 @@ const TraceObject: React.FC<ExpectedProps> = ({ trace, handleEditTrace }) => {
           }
           <ul className='flex flex-row justify-center'>
             {trace.nextObjects.map((nextTrace) => 
-              <div className='flex flex-col items-center w-[195px]'>
+              <div className='flex flex-col items-center w-[195px]' key={nextTrace.id}>
                 <div className='w-1 bg-white h-5' />
                 <li>
                   <TraceObject 

@@ -159,10 +159,12 @@ const SimulatorCharacterDisplay: React.FC<ExpectedProps> = ({
                     if (option === currentEditScreen) {
                       return <li 
                         className='px-2 py-3 mx-2 text-midnight-green underline underline-offset-4 hover:cursor-pointer'
+                        key={option}
                       >{option}</li>
                     } else {
                       return <li 
                         className='px-2 py-3 mx-2 hover:text-midnight-green hover:underline hover:underline-offset-4 hover:cursor-pointer'
+                        key={option}
                         onClick={() => handleChangeEditScreen(option)}
                       >{option}</li>
                     }
