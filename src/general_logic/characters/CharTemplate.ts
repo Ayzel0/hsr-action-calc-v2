@@ -1,5 +1,6 @@
-import type { ICharStatPage, IRelic } from "../stat_logic";
-import { ITrace, ITraceData } from "../stat_logic";
+import type { ICharStatPage } from "../characters";
+import type { IRelic } from "../relics/Relics";
+import { ITrace, ITraceData } from "./traces";
 import LCTemplate from "../light_cones/LCTemplate";
 import { PlayableCharacterName, RelicType, ScalingStat } from "../enums";
 import traceData from '../../data/traces.json';

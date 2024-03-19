@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import CharTemplate from "../../../general_logic/characters/CharTemplate";
 import TraceObject from "./TraceObject";
 import type { LCDictionary, CharacterDictionary } from "./Simulator";
-import { ITrace } from "../../../general_logic/stat_logic";
+import { ITrace } from "../../../general_logic/characters/traces/Traces";
 
 interface ExpectedProps {
   char: CharTemplate;

@@ -1,4 +1,4 @@
-import { ScalingStat } from "../enums"
+import { ScalingStat } from "../../enums"
 
 /**
  * enum denoting unlock conditions for traces, i.e. after level 75, after level 80, etc.

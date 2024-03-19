@@ -1,3 +1,4 @@
+/*
 import LCTemplate from "./LCTemplate";
 import EventEmitter from "../EventEmitter";
 import { Path } from '../enums';
@@ -21,3 +22,4 @@ export default class WorrisomeBlissful extends LCTemplate {
     console.log(this.baseHP);
   }
 }
+*/

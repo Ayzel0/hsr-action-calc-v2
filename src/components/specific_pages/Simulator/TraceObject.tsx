@@ -1,4 +1,4 @@
-import { ITrace } from "../../../general_logic/stat_logic";
+import { ITrace } from "../../../general_logic/characters/traces/Traces";
 
 interface ExpectedProps {
   trace: ITrace,
@@ -26,10 +26,10 @@ const TraceObject: React.FC<ExpectedProps> = ({ trace, handleEditTrace }) => {
       }
     }
 
-    // checks the trace
+    // enables the trace and any parent traces
     const enableTrace = (updatedTrace: ITrace) => {
       const newTrace = {...updatedTrace, unlocked: true};
-      return newTrace
+      return newTrace;
     }
 
     const newTrace = (e.target.checked ? enableTrace(trace) : disableTrace(trace));

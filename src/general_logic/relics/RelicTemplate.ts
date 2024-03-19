@@ -1,5 +1,5 @@
 import relicDict from '../../data/hsr_relic_dictionary.json';
-import { IRelic } from '../stat_logic';
+import { IRelic } from './Relics';
 import { RelicType, ScalingStat } from '../enums';
 
 interface IndividualRelic {

@@ -1,6 +1,6 @@
-import type { ILCStatPage } from './LCStatPage';
-import { ITrace } from '.';
-import { IRelic } from '.';
+import type { ILCStatPage } from '../light_cones/LCStatPage';
+import { ITrace } from './traces';
+import { IRelic } from '../relics';
 
 interface ICharStatPage {
   // character level

@@ -1,5 +1,3 @@
-
-/*
 import EventEmitter from "../EventEmitter";
 import { Event } from "../enums";
 import type { Listener } from "../EventEmitter";
@@ -18,4 +16,3 @@ export default class LCEffectTemplate {
     emitter.off(this.event, this.callback);
   }
 }
- */

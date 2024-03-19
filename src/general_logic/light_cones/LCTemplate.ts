@@ -1,4 +1,4 @@
-import type { ILCStatPage } from "../stat_logic";
+import type { ILCStatPage } from "./LCStatPage";
 import lcJSON from '../../data/hsr_lc_stats.json';
 import { Path } from "../enums";
 
