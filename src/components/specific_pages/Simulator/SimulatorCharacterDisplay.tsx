@@ -3,6 +3,7 @@ import CharTemplate from "../../../general_logic/characters/CharTemplate";
 import TraceObject from "./TraceObject";
 import type { LCDictionary, CharacterDictionary } from "./Simulator";
 import { ITrace } from "../../../general_logic/characters/traces/Traces";
+import LightConeDisplay from "./LightConeDisplay";
 
 interface ExpectedProps {
   char: CharTemplate;
@@ -66,6 +67,17 @@ const SimulatorCharacterDisplay: React.FC<ExpectedProps> = ({
                   />
                 </div>
               ))}
+            </div>
+          </>
+        )
+      case 'Light Cone':
+        return (
+          <>
+            <div>
+              <LightConeDisplay
+                lightCone = {char.lightCone}
+                lcDict = {lcDictionary}
+              />
             </div>
           </>
         )
