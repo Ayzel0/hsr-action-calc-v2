@@ -65,8 +65,20 @@ export default class LCTemplate implements ILCStatPage {
     // read json
     const typedLCJSON = lcJSON as LCJSON;
     const individualLCStats: IndividualLCStats = typedLCJSON[this.lcID];
-    const levelKey = this.lcLevel.toString();
 
+    if ((newLevel < 0) || (newLevel > 80)) {
+      return;
+    }
+
+    if (Number.isNaN(newLevel)) {
+      this.lcLevel = 1;
+      const levelKey = this.lcLevel.toString();
+      this.baseATK = individualLCStats.BaseStats[levelKey].ATK;
+      this.baseDEF = individualLCStats.BaseStats[levelKey].DEF;
+      this.baseHP = individualLCStats.BaseStats[levelKey].HP;
+    }
+
+    const levelKey = newLevel.toString();
     let maxLevel = ascensionBreakpoints[this.ascensionLevel];
     let minLevel = this.ascensionLevel > 0 ? ascensionBreakpoints[this.ascensionLevel - 1] : 0;
     if ((newLevel >= minLevel) && (newLevel <= maxLevel)) {
@@ -74,6 +86,7 @@ export default class LCTemplate implements ILCStatPage {
       this.baseATK = individualLCStats.BaseStats[levelKey].ATK;
       this.baseDEF = individualLCStats.BaseStats[levelKey].DEF;
       this.baseHP = individualLCStats.BaseStats[levelKey].HP;
+      this.lcLevel = newLevel;
     } else {
       // it's outside of the range, meaning that we need to change the ascension level
       for (let i = 0; i < ascensionBreakpoints.length; i++) {
@@ -86,6 +99,7 @@ export default class LCTemplate implements ILCStatPage {
       this.baseATK = individualLCStats.BaseStats[levelKey].ATK;
       this.baseDEF = individualLCStats.BaseStats[levelKey].DEF;
       this.baseHP = individualLCStats.BaseStats[levelKey].HP;
+      this.lcLevel = newLevel;
     }
   }
 

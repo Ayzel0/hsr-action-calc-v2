@@ -10,29 +10,36 @@ interface ExpectedProps {
 
 const LightConeDisplay: React.FC<ExpectedProps> = ({ lightCone, lcDict }) => {
   const [lcLevel, setLCLevel] = useState<number>(lightCone.lcLevel);
-  const [tempLCLevel, setTempLCLevel] = useState(0);
+  const [tempLCLevel, setTempLCLevel] = useState<string>(lightCone.lcLevel.toString());
 
   useEffect(() => {
     setLCLevel(lightCone.lcLevel);
   }, [lightCone.lcLevel]);
 
   const handleLCLevelChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    e.preventDefault()
-    const newValue = parseInt(e.target.value, 10);
+    e.preventDefault();
+    const newValue = e.target.value;
     setTempLCLevel(newValue);
   };
+
+  const handleLCLevelSubmit = (e: React.ChangeEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLCLevel(parseInt(tempLCLevel, 10));
+    lightCone.setLightConeLevel(parseInt(tempLCLevel, 10));
+  }
 
   const lcImagePath = lcDict[lightCone.lcID].ImageLink;
   
   return (
     <div>
+      <h2>{lightCone.getLightConeLevelDisplay()}</h2>
+      <h2>{lightCone.ascensionLevel}</h2>
       <img src={lcImagePath} />
-      <form>
+      <form onSubmit={handleLCLevelSubmit}>
         <input 
           type='number'
-          value={lcLevel}
+          value={tempLCLevel}
           onChange={handleLCLevelChange}
-          onSubmit={handleLCLevelSubmit}
         />
       </form>
     </div>
